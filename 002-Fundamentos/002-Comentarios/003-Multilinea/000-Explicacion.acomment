@@ -1,0 +1,26 @@
+En C, los comentarios de múltiples líneas se escriben entre `/*` y `*/`. Estos comentarios pueden abarcar varias líneas de código y son útiles para explicar secciones extensas de código, realizar anotaciones detalladas o incluso para desactivar temporalmente bloques de código.
+
+Aquí tienes un ejemplo de cómo se escriben comentarios de varias líneas en C:
+
+```c
+/*
+  Este es un ejemplo de comentario
+  de múltiples líneas en C.
+  Puede abarcar varias líneas de código
+  y se utiliza para describir detalladamente
+  el propósito o funcionamiento de un bloque de código.
+*/
+
+int main() {
+    /* 
+       Este comentario también puede estar dentro de una función.
+       Puede ser útil para explicar la lógica compleja o el propósito
+       de un fragmento de código específico.
+    */
+    
+    // Código aquí
+    return 0;
+}
+```
+
+Los comentarios de múltiples líneas son muy útiles para documentar y explicar el código de manera más extensa y detallada, ayudando a otros programadores (y a ti mismo) a comprender el funcionamiento o la lógica de secciones específicas de un programa.

@@ -1,0 +1,50 @@
+Los operadores aritméticos en C son herramientas fundamentales que permiten realizar operaciones matemáticas básicas entre variables y valores numéricos. Estos operadores se utilizan para realizar sumas, restas, multiplicaciones, divisiones, cálculos de módulo y operaciones de incremento/decremento.
+
+Aquí están los principales operadores aritméticos en C:
+
+1. **Suma `+`:** Se utiliza para sumar dos valores.
+
+    ```c
+    int a = 5, b = 3, resultado;
+    resultado = a + b; // resultado contendrá 8
+    ```
+
+2. **Resta `-`:** Se utiliza para restar un valor de otro.
+
+    ```c
+    int x = 10, y = 7, resta;
+    resta = x - y; // resta contendrá 3
+    ```
+
+3. **Multiplicación `*`:** Se utiliza para multiplicar dos valores.
+
+    ```c
+    int c = 4, d = 6, producto;
+    producto = c * d; // producto contendrá 24
+    ```
+
+4. **División `/`:** Se utiliza para dividir un valor entre otro.
+
+    ```c
+    int dividendo = 20, divisor = 5, cociente;
+    cociente = dividendo / divisor; // cociente contendrá 4
+    ```
+
+5. **Módulo `%`:** Devuelve el resto de la división entera entre dos valores.
+
+    ```c
+    int e = 15, f = 4, resto;
+    resto = e % f; // resto contendrá 3
+    ```
+
+6. **Incremento `++` y Decremento `--`:** Estos operadores se utilizan para aumentar o disminuir en 1 el valor de una variable, respectivamente.
+
+    ```c
+    int numero = 5;
+    numero++; // Incrementa numero por 1 (numero contendrá 6)
+    
+    int otra_variable = 10;
+    otra_variable--; // Decrementa otra_variable por 1 (otra_variable contendrá 9)
+    ```
+
+Los operadores aritméticos se pueden utilizar en expresiones matemáticas simples o complejas, y pueden combinarse con paréntesis para controlar el orden de las operaciones. Es esencial tener en cuenta las reglas de precedencia y asociatividad de operadores para realizar cálculos precisos en C.

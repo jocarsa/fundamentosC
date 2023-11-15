@@ -1,0 +1,39 @@
+La estructura `if` en C es una de las estructuras de control de selección más fundamentales. Se utiliza para ejecutar un bloque de código si una condición especificada es verdadera (true). La sintaxis básica de la estructura `if` es la siguiente:
+
+```c
+if (condición) {
+    // Bloque de código a ejecutar si la condición es verdadera
+}
+```
+
+- La `condición` es una expresión que se evalúa como verdadera (`true`) o falsa (`false`).
+- Si la `condición` es verdadera, se ejecuta el bloque de código dentro de las llaves `{}`. Si la `condición` es falsa, el bloque de código se omite y la ejecución continúa con el código que sigue después del `if`.
+
+Aquí tienes un ejemplo simple que demuestra el uso de la estructura `if` para verificar si un número es par o impar:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numero = 7;
+
+    if (numero % 2 == 0) {
+        printf("El número es par.\n");
+    } else {
+        printf("El número es impar.\n");
+    }
+
+    return 0;
+}
+```
+
+Explicación del ejemplo:
+- `numero % 2 == 0` verifica si el resto de dividir `numero` por `2` es igual a `0`. Si es verdadero, el número es par; de lo contrario, es impar.
+- El bloque de código dentro de las llaves `{}` correspondiente al `if` o al `else` se ejecuta dependiendo de si la condición es verdadera o falsa.
+
+La salida de este programa sería:
+```
+El número es impar.
+```
+
+La estructura `if` es fundamental en la lógica de programación, ya que permite tomar decisiones basadas en condiciones específicas y ejecutar diferentes partes del código según esas condiciones. Además, se puede combinar con estructuras `else if` o `else` para manejar múltiples casos o condiciones.

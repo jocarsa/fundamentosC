@@ -1,0 +1,48 @@
+En C, los errores pueden surgir por una variedad de razones y se dividen principalmente en tres categorías: errores de sintaxis, errores de tiempo de ejecución y errores de lógica.
+
+1. **Errores de sintaxis:**
+   Estos errores ocurren cuando el compilador encuentra un código que viola las reglas gramaticales del lenguaje. Algunos ejemplos comunes son:
+   - Falta de punto y coma al final de una instrucción.
+   - Uso incorrecto de paréntesis, corchetes o llaves.
+   - Tipos de datos o variables no declaradas.
+   - Palabras clave mal escritas.
+   - Uso incorrecto de operadores.
+
+   Ejemplo de error de sintaxis:
+
+   ```c
+   int x = 10  // Falta el punto y coma al final de la declaración
+   ```
+
+2. **Errores de tiempo de ejecución:**
+   Estos errores ocurren durante la ejecución del programa y generalmente están relacionados con situaciones imprevistas que ocurren mientras el programa se está ejecutando. Algunos ejemplos son:
+   - Acceso a memoria no asignada (punteros salvajes).
+   - División por cero.
+   - Intentar acceder a un índice fuera del rango de un array.
+   - Uso de valores no inicializados.
+
+   Ejemplo de error de tiempo de ejecución:
+
+   ```c
+   int array[5];
+   array[6] = 10; // Acceso fuera del rango del array
+   ```
+
+3. **Errores de lógica:**
+   Estos errores ocurren cuando el programa se ejecuta sin generar errores de compilación, pero no produce los resultados esperados debido a una lógica incorrecta en el código.
+   - Algoritmos incorrectos.
+   - Condiciones lógicas mal planteadas.
+   - Malentendidos en la lógica del programa.
+
+   Ejemplo de error de lógica:
+
+   ```c
+   int x = 5;
+   if (x > 10) {
+       printf("x es mayor que 10");
+   } else if (x > 5) {
+       printf("x es mayor que 5"); // Esta condición nunca se cumplirá
+   }
+   ```
+
+Para abordar estos errores, es crucial entender los mensajes de error proporcionados por el compilador. Estos mensajes suelen indicar la ubicación del error y a menudo ofrecen pistas sobre cómo corregirlo. Además, técnicas como el uso de depuradores (debuggers), la revisión exhaustiva del código y la práctica constante son fundamentales para minimizar y corregir errores en el desarrollo de software en C.

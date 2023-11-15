@@ -1,0 +1,38 @@
+La función `strcat` en C se utiliza para concatenar (unir) dos cadenas de caracteres. Concatena la cadena de caracteres de origen al final de la cadena de destino, anexándola al final de la cadena de destino existente y sobrescribiendo el carácter nulo de la cadena de destino.
+
+La firma de la función `strcat` es la siguiente:
+
+```c
+char *strcat(char *dest, const char *src);
+```
+
+- `dest` es un puntero a la cadena de destino a la que se añadirá la cadena de origen.
+- `src` es un puntero a la cadena de origen que se añadirá a la cadena de destino.
+
+Es importante asegurarse de que la cadena de destino tenga suficiente espacio para contener los caracteres de la cadena de origen concatenada, incluyendo el carácter nulo al final. De lo contrario, podría causar un desbordamiento de búfer si no se maneja correctamente.
+
+Aquí hay un ejemplo de cómo usar `strcat`:
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char destino[20] = "Hola, ";
+    const char origen[] = "mundo!";
+
+    strcat(destino, origen); // Concatenando las cadenas
+
+    printf("La cadena concatenada es: %s\n", destino);
+
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- Se tiene una cadena de destino `destino` con espacio suficiente para contener la cadena de origen más la cadena de destino. Se inicializa con `"Hola, "`.
+- Se declara una cadena de origen `origen` con el texto `"mundo!"`.
+- `strcat(destino, origen)` concatena la cadena de origen al final de la cadena de destino, por lo que después de la ejecución de `strcat`, la cadena de destino contendrá `"Hola, mundo!"`.
+
+Es importante recordar que la cadena de destino debe tener suficiente espacio para contener la concatenación de ambas cadenas para evitar errores de desbordamiento de búfer. Además, `strcat` no realiza comprobaciones sobre el tamaño del destino, por lo que es responsabilidad del programador asegurar que se evite cualquier riesgo de desbordamiento.

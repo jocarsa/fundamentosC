@@ -1,0 +1,31 @@
+En C, el tipo de datos `char` se utiliza para representar caracteres individuales. Aunque los caracteres son valores enteros en su esencia, el tipo `char` se usa específicamente para almacenar caracteres alfanuméricos, símbolos y otros caracteres especiales de la tabla ASCII u otros conjuntos de caracteres.
+
+El tamaño de un `char` es de 1 byte en la mayoría de las implementaciones de C. En la tabla ASCII, cada `char` representa un carácter específico mediante su valor numérico correspondiente.
+
+Aquí hay un ejemplo simple que muestra el uso de `char` en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    char letra = 'A'; // Se puede asignar un carácter encerrándolo entre comillas simples
+    printf("La letra es: %c\n", letra);
+
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- Se declara una variable `letra` de tipo `char`.
+- Se le asigna el carácter `'A'`.
+- `%c` se utiliza en `printf()` para mostrar el valor de `letra`.
+
+Además de almacenar caracteres individuales, las variables de tipo `char` se pueden utilizar como números enteros, ya que internamente se almacenan como valores numéricos según la codificación de caracteres utilizada (como ASCII). Por ejemplo, el carácter `'A'` se representa como el valor numérico `65` según la tabla ASCII.
+
+```c
+char letra = 'A';
+int valor_numerico = letra; // La variable 'valor_numerico' contendrá 65 (valor ASCII de 'A')
+```
+
+El tipo de datos `char` es fundamental para manejar y manipular caracteres en C, y se utiliza comúnmente en la manipulación de cadenas de texto, entrada/salida de archivos, operaciones de caracteres y muchas otras tareas relacionadas con el procesamiento de texto.

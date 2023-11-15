@@ -1,0 +1,94 @@
+La sintaxis en C se refiere a las reglas y estructuras gramaticales que rigen la escritura de programas en este lenguaje de programación. Aquí hay un resumen de algunos elementos clave de la sintaxis de C:
+
+### Comentarios:
+- Se pueden usar para documentar el código y no tienen ningún efecto en la ejecución.
+- Comienzan con `//` para comentarios de una línea o con `/*` y terminan con `*/` para comentarios de varias líneas.
+
+```c
+// Esto es un comentario de una línea en C
+
+/*
+Este es un comentario
+que abarca varias líneas
+en C
+*/
+```
+
+### Directivas del preprocesador:
+- Comienzan con `#`.
+- Se utilizan para incluir archivos de cabecera, definir constantes, realizar condicionales de compilación, entre otros.
+
+```c
+#include <stdio.h> // Inclusión de un archivo de cabecera
+
+#define PI 3.1416 // Definición de una constante
+```
+
+### Función main():
+- Punto de entrada del programa.
+- La ejecución comienza desde aquí.
+
+```c
+int main() {
+    // Código
+    return 0;
+}
+```
+
+### Declaración de variables:
+- Deben ser declaradas antes de ser usadas.
+- La sintaxis es `tipo_de_dato nombre_de_variable`.
+
+```c
+int numero;
+float precio;
+char letra;
+```
+
+### Operadores:
+- Cuenta con una variedad de operadores aritméticos (`+`, `-`, `*`, `/`, `%`), lógicos (`&&`, `||`, `!`), de asignación (`=`, `+=`, `-=`), relacionales (`==`, `!=`, `<`, `>`, `<=`, `>=`), entre otros.
+
+### Estructuras de control:
+- Se utilizan para controlar el flujo del programa.
+- Incluyen estructuras condicionales (if, else if, else) y bucles (for, while, do-while).
+
+```c
+if (condición) {
+    // Código si la condición es verdadera
+} else {
+    // Código si la condición es falsa
+}
+
+for (int i = 0; i < 5; i++) {
+    // Código a repetir
+}
+
+while (condición) {
+    // Código mientras la condición sea verdadera
+}
+```
+
+### Funciones:
+- Permiten dividir el código en bloques reutilizables.
+- Se definen con un tipo de retorno, nombre y parámetros (si los tienen).
+
+```c
+int sumar(int a, int b) {
+    return a + b;
+}
+```
+
+### Punteros:
+- Almacenan direcciones de memoria.
+- Permiten manipular directamente los datos en memoria.
+
+```c
+int *puntero; // Declaración de un puntero a entero
+int numero = 10;
+puntero = &numero; // Asignación de la dirección de memoria de 'numero' al puntero
+
+printf("Valor de 'numero': %d\n", numero); // Imprime el valor de 'numero'
+printf("Valor apuntado por 'puntero': %d\n", *puntero); // Imprime el valor apuntado por 'puntero'
+```
+
+La sintaxis de C es precisa y rígida, lo que significa que el código debe seguir estas reglas gramaticales para compilar correctamente.

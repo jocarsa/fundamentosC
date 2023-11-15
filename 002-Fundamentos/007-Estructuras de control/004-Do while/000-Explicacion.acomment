@@ -1,0 +1,42 @@
+La estructura `do-while` en C es similar a la estructura `while`, con la diferencia de que garantiza que el bloque de código se ejecute al menos una vez, incluso si la condición es falsa desde el principio. La sintaxis general de la estructura `do-while` es la siguiente:
+
+```c
+do {
+    // Bloque de código a ejecutar al menos una vez
+} while (condición);
+```
+
+- El bloque de código dentro de `do` se ejecuta primero sin verificar la condición.
+- Luego, la `condición` se evalúa. Si es verdadera (`true`), el bucle se repite y el bloque de código se ejecuta nuevamente. Si es falsa (`false`), el bucle se detiene y la ejecución continúa después del bucle.
+
+Aquí hay un ejemplo simple que muestra cómo se utiliza la estructura `do-while` para contar hasta 5:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int contador = 0;
+    do {
+        printf("%d\n", contador);
+        contador++;
+    } while (contador < 5);
+
+    return 0;
+}
+```
+
+Explicación del ejemplo:
+- `int contador = 0;` inicializa una variable `contador` con un valor inicial de `0`.
+- El bloque de código dentro de `do` imprime el valor de `contador` y luego se incrementa.
+- `contador < 5;` es la condición que se evalúa después de cada ejecución del bloque de código. Si es verdadera, el bucle se repetirá.
+
+La salida de este programa sería la misma que con el ejemplo del bucle `while`:
+```
+0
+1
+2
+3
+4
+```
+
+La estructura `do-while` es útil cuando se necesita ejecutar un bloque de código al menos una vez, sin importar si la condición inicialmente es verdadera o falsa. Se usa comúnmente en situaciones en las que se necesita ejecutar un bloque de código y luego verificar una condición al final.

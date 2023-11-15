@@ -1,0 +1,36 @@
+En el lenguaje C, las cadenas de caracteres se manipulan mediante arrays de caracteres (`char[]`) donde cada elemento del array contiene un carácter y el último carácter es el carácter nulo `'\0'`, que indica el final de la cadena. Las cadenas de caracteres en C son simplemente una sucesión de caracteres almacenados en memoria, finalizados por el carácter nulo.
+
+Aquí hay un ejemplo básico que muestra cómo trabajar con cadenas utilizando arrays de caracteres en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    // Declaración de una cadena de caracteres
+    char mi_cadena[] = "Hola, mundo!";
+
+    // Imprimir la cadena de caracteres
+    printf("Cadena de caracteres: %s\n", mi_cadena);
+
+    // Acceder a caracteres individuales dentro de la cadena
+    printf("Primer caracter: %c\n", mi_cadena[0]); // Imprime 'H'
+    printf("Tercer caracter: %c\n", mi_cadena[2]); // Imprime 'l'
+
+    // Modificar caracteres individuales dentro de la cadena
+    mi_cadena[7] = 'C'; // Cambia ',' por 'C'
+    printf("Cadena modificada: %s\n", mi_cadena); // Imprime "Hola, Mundo!"
+
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- Se declara una cadena de caracteres `mi_cadena` utilizando un array de caracteres. La cadena se inicializa con `"Hola, mundo!"`.
+- `printf()` se utiliza con el especificador `%s` para imprimir la cadena completa.
+- Se accede a caracteres individuales dentro de la cadena usando índices entre corchetes (`[]`).
+- Se modifica un carácter específico de la cadena, reemplazando la coma `','` por la letra `'C'`.
+
+Es importante tener en cuenta que las cadenas de caracteres en C terminan con el carácter nulo `'\0'`, lo que permite a las funciones de manipulación de cadenas (como `printf()`, `scanf()`, `strlen()`, etc.) saber dónde termina la cadena.
+
+Para trabajar con cadenas en C, se utilizan funciones específicas de la biblioteca estándar como `strlen()` para calcular la longitud de una cadena, `strcpy()` para copiar cadenas, `strcat()` para concatenar cadenas, entre otras. Es crucial manejar cuidadosamente la gestión de memoria y asegurarse de que la cadena siempre termine con el carácter nulo para evitar errores en la manipulación de cadenas.

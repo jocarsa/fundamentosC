@@ -1,0 +1,11 @@
+Dentro de la función `main()` en este programa en C, se ha utilizado un comentario de bloque:
+
+```c
+/*
+    Esto es una línea de comentario
+    Esto es otra línea de comentario
+    Y esta es una tercera línea
+*/
+```
+
+Estos comentarios de bloque comienzan con `/*` y terminan con `*/`, permitiendo comentar múltiples líneas de código a la vez. Todo el contenido dentro de estos delimitadores (`/* ... */`) se trata como un comentario y no se ejecutará ni se considerará como parte del código fuente cuando se compile el programa. En este caso, la función `main()` simplemente contiene este comentario de bloque y luego devuelve 0, indicando una finalización exitosa.

@@ -1,0 +1,40 @@
+La lectura de archivos en C implica la lectura de datos almacenados en un archivo existente en el sistema de archivos. Se realiza utilizando funciones proporcionadas por la biblioteca estándar `stdio.h`. Aquí te presento los pasos básicos para leer un archivo en C:
+
+### 1. Abrir un archivo en modo lectura:
+Para abrir un archivo en modo lectura, se usa la función `fopen()`. Esto permite acceder al contenido del archivo para lectura.
+
+```c
+#include <stdio.h>
+
+int main() {
+    FILE *archivo;
+    char caracter;
+
+    archivo = fopen("archivo_lectura.txt", "r"); // Abrir en modo lectura ("r")
+
+    if (archivo == NULL) {
+        printf("No se pudo abrir el archivo.\n");
+        return 1;
+    }
+
+    // Operaciones de lectura del archivo
+    while ((caracter = fgetc(archivo)) != EOF) { // Leer el archivo hasta llegar al final (EOF)
+        printf("%c", caracter); // Imprimir el contenido del archivo caracter por caracter
+    }
+
+    // Cerrar el archivo después de terminar la lectura
+    fclose(archivo);
+
+    return 0;
+}
+```
+
+### 2. Funciones para leer archivos:
+- `fgetc()`: Lee el siguiente carácter del archivo y lo devuelve como un `int`. Al llegar al final del archivo, devuelve `EOF` (End of File).
+- `fgets()`: Lee una línea completa del archivo y la guarda en un array de caracteres.
+
+### Importante:
+- Siempre verifica si el archivo se abrió correctamente antes de realizar operaciones de lectura.
+- El modo de apertura `r` permite únicamente la lectura del archivo. No se puede escribir ni modificar su contenido con este modo.
+
+La lectura de archivos en C es útil para procesar información almacenada en archivos de texto, bases de datos simples, configuraciones, entre otros. Es fundamental cerrar el archivo con `fclose()` después de terminar las operaciones de lectura para liberar los recursos asociados al archivo y asegurar que se terminen todas las operaciones correctamente.

@@ -1,0 +1,27 @@
+En el lenguaje de programación C, los comentarios son secciones de texto dentro del código fuente que se utilizan para documentar, explicar o deshabilitar temporalmente partes del código. Estos comentarios no se ejecutan ni se compilan; su único propósito es proporcionar información útil para los programadores que leen el código.
+
+Hay dos tipos principales de comentarios en C:
+
+1. **Comentarios de una sola línea:** Se inician con `//`. Todo lo que sigue después de `//` en esa línea se considera un comentario y es ignorado por el compilador.
+
+   Ejemplo:
+   ```c
+   int x = 5; // Esta es una variable de ejemplo
+   ```
+
+2. **Comentarios de múltiples líneas:** Se inician con `/*` y terminan con `*/`. Pueden abarcar múltiples líneas y son útiles para comentarios extensos o para desactivar bloques enteros de código.
+
+   Ejemplo:
+   ```c
+   /*
+    Este es un comentario de varias líneas
+    utilizado para explicar un segmento extenso de código.
+   */
+   ```
+
+Los comentarios son valiosos para:
+- Explicar el propósito o la funcionalidad de un fragmento de código.
+- Facilitar la comprensión del código a otros programadores que trabajen en el mismo proyecto.
+- Desactivar temporalmente partes del código para probar diferentes enfoques o depurar problemas sin eliminar el código existente.
+
+Es fundamental utilizar comentarios de manera efectiva para mejorar la legibilidad y mantenibilidad del código, proporcionando información clara y concisa sobre su funcionamiento y propósito.

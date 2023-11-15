@@ -1,0 +1,49 @@
+Los operadores de comparación en C se utilizan para comparar valores y expresiones, devolviendo un resultado lógico (verdadero o falso) basado en la relación entre estos valores. Estos operadores permiten establecer condiciones y tomar decisiones dentro de un programa.
+
+Aquí están los operadores de comparación principales en C:
+
+1. **Igualdad `==`:** Comprueba si dos valores son iguales. Si lo son, devuelve `verdadero (1)`, de lo contrario, devuelve `falso (0)`.
+
+    ```c
+    int a = 5, b = 5;
+    if (a == b) {
+        // Este bloque se ejecuta si a es igual a b
+    }
+    ```
+
+2. **Desigualdad `!=`:** Comprueba si dos valores son diferentes. Devuelve `verdadero (1)` si los valores no son iguales y `falso (0)` si son iguales.
+
+    ```c
+    int x = 10, y = 7;
+    if (x != y) {
+        // Este bloque se ejecuta si x no es igual a y
+    }
+    ```
+
+3. **Mayor que `>` y Menor que `<`:** Verifica si un valor es mayor o menor que otro.
+
+    ```c
+    int m = 8, n = 6;
+    if (m > n) {
+        // Este bloque se ejecuta si m es mayor que n
+    }
+
+    if (n < m) {
+        // Este bloque se ejecuta si n es menor que m
+    }
+    ```
+
+4. **Mayor o igual que `>=` y Menor o igual que `<=`:** Verifica si un valor es mayor o igual, o menor o igual a otro.
+
+    ```c
+    int p = 10, q = 10;
+    if (p >= q) {
+        // Este bloque se ejecuta si p es mayor o igual que q
+    }
+
+    if (q <= p) {
+        // Este bloque se ejecuta si q es menor o igual que p
+    }
+    ```
+
+Estos operadores de comparación se utilizan comúnmente con estructuras condicionales (`if`, `else if`, `else`) para controlar el flujo del programa basado en las relaciones entre los valores. Permiten realizar evaluaciones lógicas para tomar decisiones dentro del código en función de las condiciones establecidas.

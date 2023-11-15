@@ -1,0 +1,28 @@
+En C, `int` es uno de los tipos de datos fundamentales y se utiliza para almacenar números enteros. La palabra clave `int` es una abreviatura de "entero". Este tipo de dato puede representar números enteros positivos o negativos, pero no puede manejar valores fraccionarios o decimales.
+
+La cantidad de memoria asignada a un `int` puede variar dependiendo de la arquitectura del sistema y del compilador utilizado, pero generalmente suele ser de 4 bytes en la mayoría de las plataformas modernas.
+
+Aquí hay un ejemplo simple de cómo se declara y se utiliza una variable de tipo `int` en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numero_entero; // Declaración de una variable de tipo int
+    numero_entero = 10; // Asignación de un valor a la variable
+
+    printf("El valor de la variable numero_entero es: %d\n", numero_entero);
+    
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- Se declara una variable `numero_entero` de tipo `int`.
+- Se le asigna el valor `10` a la variable `numero_entero`.
+- `printf()` se utiliza para imprimir el valor almacenado en la variable `numero_entero`.
+
+El especificador de formato `%d` en la función `printf()` se utiliza para mostrar el valor de una variable de tipo `int`. Esta letra `%d` indica al compilador que debe sustituir ese marcador de posición por el valor entero correspondiente durante la ejecución del programa.
+
+Los `int` son ampliamente utilizados en programación para representar números enteros, y son útiles para realizar cálculos matemáticos, contar, indexar en arreglos y realizar muchas otras operaciones donde números enteros son necesarios.
