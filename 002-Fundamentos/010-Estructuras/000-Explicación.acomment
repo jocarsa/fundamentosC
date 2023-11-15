@@ -1,0 +1,51 @@
+En el lenguaje de programación C, un `struct` (abreviatura de "estructura") es un tipo de dato que permite al programador combinar diferentes tipos de datos bajo un solo nombre. Básicamente, un `struct` permite definir un tipo de dato personalizado que puede contener varios campos, cada uno con su propio tipo de dato.
+
+La definición de un `struct` comienza con la palabra clave `struct`, seguida por un nombre elegido por el programador y un conjunto de campos, cada uno de los cuales tiene su propio tipo y nombre. Por ejemplo:
+
+```c
+struct Persona {
+    char nombre[50];
+    int edad;
+    float altura;
+};
+```
+
+En este ejemplo, se ha creado un `struct` llamado `Persona` que contiene tres campos: `nombre` (un array de caracteres de longitud máxima 50), `edad` (un entero) y `altura` (un número en punto flotante). Estos campos se consideran miembros o atributos del `struct` y se pueden acceder individualmente.
+
+Para utilizar este `struct` y crear variables basadas en él, se declara una variable del tipo `struct Persona`:
+
+```c
+struct Persona persona1;
+```
+
+Esta línea declara una variable llamada `persona1` que es del tipo `struct Persona`. Ahora, se pueden acceder y modificar los campos de esta variable usando el operador punto (`.`):
+
+```c
+strcpy(persona1.nombre, "Juan");
+persona1.edad = 30;
+persona1.altura = 1.75;
+```
+
+Aquí, se asigna el valor `"Juan"` al campo `nombre`, `30` al campo `edad` y `1.75` al campo `altura` de la variable `persona1`.
+
+Los `structs` son útiles para organizar datos relacionados en una sola estructura, lo que facilita la manipulación y el paso de estos datos en las funciones. Además, permiten crear tipos de datos personalizados, lo que aumenta la legibilidad y la modularidad del código.
+
+También es posible anidar `structs`, es decir, definir un `struct` dentro de otro. Por ejemplo:
+
+```c
+struct Fecha {
+    int dia;
+    int mes;
+    int anio;
+};
+
+struct Estudiante {
+    char nombre[50];
+    int edad;
+    struct Fecha fechaNacimiento;
+};
+```
+
+En este caso, el `struct Estudiante` contiene un campo `fechaNacimiento` que es del tipo `struct Fecha`, lo que significa que un estudiante tiene como atributo una estructura que almacena información sobre la fecha de nacimiento.
+
+En resumen, los `structs` en C permiten al programador crear tipos de datos personalizados que pueden contener múltiples campos de diferentes tipos. Esto facilita la organización y manipulación de datos relacionados dentro de un programa.
