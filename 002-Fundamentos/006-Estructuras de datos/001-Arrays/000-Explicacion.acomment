@@ -1,0 +1,41 @@
+En C, un array es una estructura de datos que permite almacenar múltiples elementos del mismo tipo bajo un solo nombre. Estos elementos están dispuestos en una secuencia contigua en la memoria, y se accede a cada elemento del array mediante un índice.
+
+La declaración de un array en C se hace indicando el tipo de datos de los elementos que va a contener, seguido por corchetes `[]` y el tamaño del array.
+
+Aquí hay un ejemplo de declaración, inicialización y uso de un array en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    // Declaración e inicialización de un array de enteros con 5 elementos
+    int numeros[5] = {10, 20, 30, 40, 50};
+
+    // Acceso a elementos individuales del array mediante índices
+    printf("Primer elemento: %d\n", numeros[0]); // Imprime 10
+    printf("Tercer elemento: %d\n", numeros[2]); // Imprime 30
+
+    // Modificación de un elemento del array
+    numeros[1] = 25; // Cambia el segundo elemento a 25
+
+    // Uso de bucle para recorrer y mostrar todos los elementos del array
+    printf("Elementos del array: ");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", numeros[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- Se declara un array de enteros llamado `numeros` con tamaño 5 y se inicializa con valores específicos `{10, 20, 30, 40, 50}`.
+- Los elementos del array se acceden utilizando índices (por ejemplo, `numeros[0]` se refiere al primer elemento, `numeros[1]` al segundo, y así sucesivamente).
+- Se puede modificar el contenido de un elemento del array asignando un nuevo valor a través de su índice.
+- Se utiliza un bucle `for` para recorrer y mostrar todos los elementos del array.
+
+Es importante tener en cuenta que en C, los índices de los arrays comienzan desde cero. Por lo tanto, en un array de tamaño `n`, los índices válidos son de `0` a `n-1`. Acceder a elementos fuera de estos límites puede resultar en un comportamiento indefinido o errores.
+
+Además, los arrays en C son de tamaño fijo, lo que significa que una vez que se declara un array con un tamaño específico, su tamaño no puede cambiar durante la ejecución del programa. Sin embargo, se pueden utilizar técnicas como la asignación dinámica de memoria (mediante la función `malloc()` de la biblioteca `stdlib.h`) para trabajar con arrays de tamaño variable en tiempo de ejecución.

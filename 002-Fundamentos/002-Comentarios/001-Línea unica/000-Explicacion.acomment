@@ -1,0 +1,11 @@
+En C, los comentarios de una única línea se realizan utilizando el símbolo `//`. Cuando se coloca `//` en cualquier parte de una línea de código, todo lo que le sigue se considera un comentario y no se compila ni ejecuta.
+
+Por ejemplo:
+
+```c
+int x = 5; // Esta es una declaración de variable
+```
+
+En este caso, `// Esta es una declaración de variable` es un comentario que explica el propósito o la función de la línea de código que inicializa la variable `x`.
+
+Los comentarios de una sola línea son útiles para proporcionar aclaraciones sobre partes específicas del código sin afectar su funcionalidad. Ayudan a otros programadores (y a ti mismo en el futuro) a comprender más fácilmente el propósito o el funcionamiento del código.

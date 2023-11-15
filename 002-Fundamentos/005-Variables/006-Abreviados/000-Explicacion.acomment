@@ -1,0 +1,37 @@
+Los operadores aritméticos abreviados en C combinan operaciones aritméticas con la asignación de valores a una variable en una sola expresión. Estos operadores son atajos que realizan una operación aritmética y luego asignan el resultado de esa operación de vuelta a la variable.
+
+Los operadores aritméticos abreviados más comunes son:
+
+1. **Operador de asignación y suma (`+=`):** Agrega el valor del operando derecho al operando izquierdo y asigna el resultado al operando izquierdo.
+
+   ```c
+   int x = 5;
+   x += 3; // Es equivalente a x = x + 3;
+   // Ahora x = 8
+   ```
+
+2. **Operador de asignación y resta (`-=`):** Resta el valor del operando derecho al operando izquierdo y asigna el resultado al operando izquierdo.
+
+   ```c
+   int y = 10;
+   y -= 4; // Es equivalente a y = y - 4;
+   // Ahora y = 6
+   ```
+
+3. **Operador de asignación y multiplicación (`*=`):** Multiplica el valor del operando izquierdo por el valor del operando derecho y asigna el resultado al operando izquierdo.
+
+   ```c
+   int z = 3;
+   z *= 2; // Es equivalente a z = z * 2;
+   // Ahora z = 6
+   ```
+
+4. **Operador de asignación y división (`/=`):** Divide el valor del operando izquierdo por el valor del operando derecho y asigna el resultado al operando izquierdo.
+
+   ```c
+   int a = 20;
+   a /= 5; // Es equivalente a a = a / 5;
+   // Ahora a = 4
+   ```
+
+Estos operadores son útiles para abreviar operaciones comunes de asignación y operaciones aritméticas. Pueden hacer que el código sea más conciso y legible, especialmente cuando se utilizan en combinación con variables. Sin embargo, es importante utilizarlos con moderación para no comprometer la claridad del código.

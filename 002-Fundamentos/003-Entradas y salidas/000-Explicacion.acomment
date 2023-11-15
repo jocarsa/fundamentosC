@@ -1,0 +1,32 @@
+En programación, las salidas y entradas se refieren a cómo un programa interactúa con el entorno exterior, ya sea para recibir datos (entradas) o para proporcionar información al usuario u otro sistema (salidas).
+
+1. **Entradas (inputs):**
+   Las entradas son datos que un programa recibe del entorno exterior. Pueden provenir de diversas fuentes, como el teclado, archivos, sensores, bases de datos, dispositivos de red, entre otros. En C, las entradas más comunes provienen del teclado a través de funciones como `scanf()` para leer datos de la consola o entrada estándar.
+
+   Ejemplo en C utilizando `scanf()` para recibir entrada del usuario desde la consola:
+   ```c
+   #include <stdio.h>
+
+   int main() {
+       int num;
+       printf("Ingrese un número: ");
+       scanf("%d", &num); // Lee un número ingresado por el usuario desde la consola
+       printf("El número ingresado es: %d\n", num);
+       return 0;
+   }
+   ```
+
+2. **Salidas (outputs):**
+   Las salidas son los resultados, información o respuestas que un programa produce y proporciona al entorno exterior. Estos resultados pueden mostrarse en la pantalla, guardarse en archivos, enviarse a otros dispositivos o sistemas, entre otras acciones. En C, las salidas se pueden mostrar en la consola utilizando la función `printf()`.
+
+   Ejemplo en C utilizando `printf()` para mostrar un mensaje en la consola:
+   ```c
+   #include <stdio.h>
+
+   int main() {
+       printf("Hola, mundo!\n"); // Muestra el mensaje "Hola, mundo!" en la consola
+       return 0;
+   }
+   ```
+
+En resumen, las entradas y salidas son elementos esenciales en la programación, ya que permiten que un programa interactúe con el usuario o con otros sistemas, lo que facilita el procesamiento de datos, la interacción dinámica y la utilidad de las aplicaciones de software.

@@ -1,0 +1,63 @@
+En el lenguaje de programación C, los operadores son símbolos especiales que se utilizan para realizar operaciones sobre variables y valores. Los operadores en C se dividen en diferentes categorías según el tipo de operaciones que realizan, tales como operadores aritméticos, operadores de asignación, operadores de comparación, operadores lógicos, operadores de incremento/decremento, entre otros.
+
+Aquí hay una explicación de algunas categorías principales de operadores en C:
+
+1. **Operadores Aritméticos:** Estos operadores se utilizan para realizar operaciones matemáticas básicas, como suma, resta, multiplicación, división, módulo y operaciones de incremento/decremento.
+
+    - Suma `+`
+    - Resta `-`
+    - Multiplicación `*`
+    - División `/`
+    - Módulo `%`
+    - Incremento `++`
+    - Decremento `--`
+
+    Ejemplo:
+    ```c
+    int a = 5, b = 3, resultado;
+    resultado = a + b; // resultado contendrá 8
+    ```
+
+2. **Operadores de Asignación:** Estos operadores se utilizan para asignar valores a variables.
+
+    - Asignación `=`
+    - Asignación con operación `+=`, `-=`, `*=`, `/=`, entre otros.
+
+    Ejemplo:
+    ```c
+    int x = 10;
+    x += 5; // Equivalente a x = x + 5; // x contendrá 15
+    ```
+
+3. **Operadores de Comparación:** Estos operadores se utilizan para comparar valores y devuelven un resultado booleano (verdadero o falso).
+
+    - Igualdad `==`
+    - Desigualdad `!=`
+    - Mayor que `>`
+    - Menor que `<`
+    - Mayor o igual que `>=`
+    - Menor o igual que `<=`
+
+    Ejemplo:
+    ```c
+    int p = 10, q = 5;
+    if (p > q) {
+        // Este bloque se ejecuta si p es mayor que q
+    }
+    ```
+
+4. **Operadores Lógicos:** Estos operadores se utilizan para realizar operaciones lógicas entre expresiones booleanas.
+
+    - AND lógico `&&`
+    - OR lógico `||`
+    - NOT lógico `!`
+
+    Ejemplo:
+    ```c
+    int a = 5, b = 3, c = 7;
+    if (a > b && a < c) {
+        // Este bloque se ejecuta si a es mayor que b y a es menor que c
+    }
+    ```
+
+Estos son solo algunos de los operadores principales en C. Los operadores son fundamentales en la programación ya que permiten realizar diversas operaciones matemáticas, lógicas y de asignación en los programas, facilitando así la manipulación de datos y el control del flujo de ejecución.

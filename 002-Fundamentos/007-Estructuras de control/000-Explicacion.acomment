@@ -1,0 +1,83 @@
+En C, las estructuras de control permiten controlar el flujo de ejecución de un programa, lo que significa que determinan cómo y cuándo se ejecutan ciertas porciones de código. Las estructuras de control básicas en C incluyen:
+
+### 1. Estructuras de Control de Selección:
+
+#### a. `if-else`:
+Permite ejecutar un bloque de código si se cumple una condición y otro bloque si la condición no se cumple.
+
+```c
+int numero = 10;
+if (numero > 0) {
+    printf("El número es positivo.\n");
+} else {
+    printf("El número es cero o negativo.\n");
+}
+```
+
+#### b. `switch-case`:
+Permite evaluar diferentes valores de una variable y ejecutar bloques de código según el valor encontrado.
+
+```c
+char operador = '*';
+switch (operador) {
+    case '+':
+        printf("Suma.\n");
+        break;
+    case '-':
+        printf("Resta.\n");
+        break;
+    default:
+        printf("Operador desconocido.\n");
+}
+```
+
+### 2. Estructuras de Control de Repetición (Bucles):
+
+#### a. `for`:
+Se utiliza para repetir un bloque de código un número específico de veces.
+
+```c
+for (int i = 0; i < 5; i++) {
+    printf("%d\n", i);
+}
+```
+
+#### b. `while`:
+Ejecuta un bloque de código mientras una condición sea verdadera.
+
+```c
+int contador = 0;
+while (contador < 3) {
+    printf("Contador: %d\n", contador);
+    contador++;
+}
+```
+
+#### c. `do-while`:
+Es similar al bucle `while`, pero garantiza que el bloque de código se ejecute al menos una vez, incluso si la condición es falsa desde el principio.
+
+```c
+int num = 5;
+do {
+    printf("%d\n", num);
+    num--;
+} while (num > 0);
+```
+
+### 3. `break` y `continue`:
+- `break`: Se utiliza para salir de un bucle inmediatamente.
+- `continue`: Se utiliza para pasar a la siguiente iteración de un bucle.
+
+```c
+for (int i = 0; i < 5; i++) {
+    if (i == 3) {
+        break; // Sale del bucle cuando i es igual a 3
+    }
+    if (i == 1) {
+        continue; // Salta a la siguiente iteración cuando i es igual a 1
+    }
+    printf("%d\n", i);
+}
+```
+
+Estas estructuras de control permiten tomar decisiones, repetir acciones y controlar el flujo de un programa en función de las condiciones establecidas. Son fundamentales para el diseño y la lógica de cualquier programa en C y son utilizadas ampliamente en el desarrollo de software.

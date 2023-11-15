@@ -1,0 +1,37 @@
+La escritura de archivos en C se lleva a cabo utilizando funciones de la biblioteca estándar `stdio.h`. Estas funciones permiten crear, abrir, escribir y cerrar archivos en el sistema de archivos de la computadora. Aquí te muestro los pasos básicos para escribir en un archivo en C:
+
+### 1. Abrir un archivo en modo escritura:
+Para abrir un archivo en modo escritura, se usa la función `fopen()`. Si el archivo no existe, se creará; si ya existe, su contenido será truncado.
+
+```c
+#include <stdio.h>
+
+int main() {
+    FILE *archivo;
+    archivo = fopen("archivo_salida.txt", "w"); // Abre en modo escritura ("w")
+
+    if (archivo == NULL) {
+        printf("No se pudo abrir el archivo.\n");
+        return 1;
+    }
+
+    // Operaciones de escritura en el archivo
+    fprintf(archivo, "Este es un ejemplo de texto escrito en el archivo.\n");
+    fputs("Otra línea escrita en el archivo.\n", archivo);
+
+    // Cerrar el archivo después de terminar la escritura
+    fclose(archivo);
+
+    return 0;
+}
+```
+
+### 2. Funciones para escribir en archivos:
+- `fprintf()`: Esta función es similar a `printf()`, pero en lugar de imprimir en la consola, escribe en el archivo especificado. Toma el archivo como su primer argumento, seguido de un formato y los datos a escribir.
+- `fputs()`: Escribe una cadena en el archivo especificado. Toma dos argumentos: la cadena a escribir y el archivo donde se escribirá.
+
+### Importante:
+- Es recomendable verificar si el archivo se abrió correctamente antes de realizar operaciones de escritura.
+- El modo de apertura `w` sobrescribirá el archivo si ya existe, borrando su contenido previo. Si se desea mantener el contenido existente y agregar nuevo contenido al final, se puede utilizar el modo `a` (append).
+
+La escritura de archivos en C es útil para guardar datos generados por el programa, logs, archivos de configuración, entre otros. Es importante recordar cerrar el archivo con `fclose()` después de realizar operaciones de escritura para asegurar que todos los datos se guarden correctamente y se liberen los recursos asociados al archivo.

@@ -1,0 +1,43 @@
+La estructura `while` en C se utiliza para ejecutar un bloque de código mientras una condición especificada sea verdadera. La sintaxis general de la estructura `while` es la siguiente:
+
+```c
+while (condición) {
+    // Bloque de código a ejecutar mientras la condición sea verdadera
+}
+```
+
+- La `condición` se evalúa antes de cada iteración del bucle. Si la condición es verdadera (`true`), el bloque de código se ejecuta. Si la condición es falsa (`false`), el bucle se detiene y la ejecución continúa después del bucle.
+
+Aquí tienes un ejemplo simple que demuestra cómo se utiliza la estructura `while` para contar hasta 5:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int contador = 0;
+    while (contador < 5) {
+        printf("%d\n", contador);
+        contador++;
+    }
+
+    return 0;
+}
+```
+
+Explicación del ejemplo:
+- `int contador = 0;` inicializa una variable `contador` con un valor inicial de `0`.
+- `contador < 5;` es la condición. El bloque de código se ejecutará mientras `contador` sea menor que `5`.
+- `contador++;` incrementa la variable `contador` después de cada iteración.
+
+La salida de este programa sería:
+```
+0
+1
+2
+3
+4
+```
+
+Es esencial tener en cuenta que, si la condición del `while` es inicialmente falsa, el bloque de código dentro del bucle nunca se ejecutará. Además, si la condición nunca se vuelve falsa, se producirá un bucle infinito.
+
+La estructura `while` es útil cuando no se sabe cuántas iteraciones se necesitarán antes de iniciar el bucle, pero se sabe que se deben realizar iteraciones mientras una condición sea verdadera.

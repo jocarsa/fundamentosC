@@ -1,0 +1,45 @@
+En C, los programas pueden aceptar argumentos proporcionados por la línea de comandos al momento de ejecutarlos. Estos argumentos se conocen como "argumentos de línea de comandos" o "argumentos de terminal". Permiten que el programa reciba información específica al iniciarse, lo que puede influir en su comportamiento durante la ejecución.
+
+El punto de entrada principal de un programa en C es la función `main()`. En la declaración de `main()`, hay dos parámetros que se pueden utilizar para acceder a los argumentos de la línea de comandos: `argc` y `argv`.
+
+- `argc` (argument count): Es un entero que representa el número de argumentos proporcionados al programa desde la línea de comandos, incluyendo el nombre del programa en sí.
+- `argv` (argument vector): Es un array (vector) de punteros a cadenas de caracteres (`char *argv[]`) que contiene los argumentos proporcionados. `argv[0]` usualmente contiene el nombre del programa, y los argumentos subsiguientes se almacenan en `argv[1]`, `argv[2]`, y así sucesivamente.
+
+Aquí hay un ejemplo simple de cómo se pueden utilizar `argc` y `argv` para imprimir los argumentos proporcionados al ejecutar un programa:
+
+```c
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    printf("Número total de argumentos: %d\n", argc);
+
+    for (int i = 0; i < argc; ++i) {
+        printf("Argumento %d: %s\n", i, argv[i]);
+    }
+
+    return 0;
+}
+```
+
+Supongamos que este programa se llama `mi_programa`. Si se ejecuta en la terminal de la siguiente manera:
+
+```
+./mi_programa argumento1 argumento2 argumento3
+```
+
+El programa imprimirá:
+
+```
+Número total de argumentos: 4
+Argumento 0: ./mi_programa
+Argumento 1: argumento1
+Argumento 2: argumento2
+Argumento 3: argumento3
+```
+
+En este ejemplo:
+
+- `argc` será igual a 4 porque hay cuatro argumentos en total, incluyendo el nombre del programa.
+- `argv[0]` contiene el nombre del programa (`./mi_programa`), mientras que `argv[1]`, `argv[2]` y `argv[3]` contienen los argumentos proporcionados.
+
+Los argumentos de la línea de comandos son útiles para pasar información relevante a un programa cuando se ejecuta, lo que permite personalizar su comportamiento sin necesidad de modificar el código fuente.

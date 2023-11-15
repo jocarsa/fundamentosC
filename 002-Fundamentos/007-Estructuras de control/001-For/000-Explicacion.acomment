@@ -1,0 +1,41 @@
+La estructura `for` en C es una de las estructuras de control de bucles más utilizadas. Se utiliza para ejecutar un bloque de código un número específico de veces. La sintaxis general de la estructura `for` es la siguiente:
+
+```c
+for (inicialización; condición; incremento/decremento) {
+    // Bloque de código a ejecutar repetidamente
+}
+```
+
+- La `inicialización` se realiza antes de que comience la ejecución del bucle y generalmente se utiliza para inicializar una variable de control.
+- La `condición` es evaluada antes de cada iteración del bucle. Si la condición es verdadera (`true`), el bloque de código se ejecuta. Si es falsa (`false`), el bucle se detiene y la ejecución continúa después del bucle.
+- El `incremento/decremento` se realiza al final de cada iteración y generalmente se utiliza para cambiar el valor de la variable de control.
+
+Aquí hay un ejemplo simple que demuestra cómo se usa la estructura `for` para imprimir números del 0 al 4:
+
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 0; i < 5; i++) {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+```
+
+Explicación del ejemplo:
+- `int i = 0;` es la inicialización. Declara una variable `i` y le asigna el valor inicial de `0`.
+- `i < 5;` es la condición. El bucle se ejecutará mientras `i` sea menor que `5`.
+- `i++` es el incremento. Después de cada iteración, el valor de `i` se incrementa en 1.
+
+La salida de este programa sería:
+```
+0
+1
+2
+3
+4
+```
+
+La estructura `for` es muy útil cuando se conoce de antemano la cantidad exacta de iteraciones que se necesitan realizar. Sin embargo, es importante tener en cuenta que la falta de precaución en la condición del bucle puede llevar a bucles infinitos si la condición nunca se vuelve falsa.

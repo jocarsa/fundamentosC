@@ -1,0 +1,45 @@
+Las funciones en C son bloques de código que realizan una tarea específica y pueden ser invocadas desde cualquier parte del programa para ejecutar esa tarea. Las funciones permiten dividir un programa en partes más pequeñas y más manejables, lo que facilita la comprensión, el mantenimiento y la reutilización del código.
+
+### Sintaxis de una función en C:
+
+```c
+tipo_retorno nombre_funcion(tipo_parametro1 parametro1, tipo_parametro2 parametro2, ...) {
+    // Cuerpo de la función
+    // Instrucciones y operaciones
+    return valor_retorno; // Opcional: devuelve un valor de tipo_retorno
+}
+```
+
+- `tipo_retorno`: Es el tipo de dato que la función devuelve como resultado. Puede ser `int`, `float`, `char`, `void` (si la función no devuelve ningún valor), u otro tipo de datos.
+- `nombre_funcion`: Es el nombre dado a la función.
+- `tipo_parametro1 parametro1, tipo_parametro2 parametro2, ...`: Parámetros de entrada que la función puede recibir. Estos son opcionales. Si la función no toma parámetros, los paréntesis estarán vacíos `()`.
+- `return valor_retorno`: Esta declaración es opcional y se utiliza para devolver un valor desde la función al lugar desde donde se llamó. El tipo de `valor_retorno` debe coincidir con `tipo_retorno`.
+
+### Ejemplo de una función simple en C:
+
+```c
+#include <stdio.h>
+
+// Definición de la función suma que toma dos parámetros y devuelve un entero
+int suma(int a, int b) {
+    int resultado = a + b;
+    return resultado;
+}
+
+int main() {
+    int num1 = 5, num2 = 3;
+    int resultado_suma = suma(num1, num2); // Llamada a la función suma
+
+    printf("El resultado de la suma es: %d\n", resultado_suma);
+    
+    return 0;
+}
+```
+
+En este ejemplo:
+- `suma` es el nombre de la función que toma dos enteros como parámetros (`a` y `b`) y devuelve la suma de estos dos números.
+- Dentro de `main()`, se declara `num1` y `num2` y se llama a la función `suma()` pasando estos números como argumentos.
+- La función `suma()` realiza la operación de suma y devuelve el resultado a la variable `resultado_suma`.
+- El resultado se imprime en la consola.
+
+Las funciones en C permiten modularizar y organizar el código, facilitando su mantenimiento y comprensión. Además, promueven la reutilización del código al permitir llamar una función desde varios lugares dentro del programa.

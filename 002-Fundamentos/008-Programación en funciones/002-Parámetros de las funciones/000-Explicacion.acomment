@@ -1,0 +1,39 @@
+Los parámetros en las funciones de C son variables que se utilizan para pasar información a la función. Estos parámetros permiten que la función trabaje con datos específicos proporcionados desde fuera de su cuerpo. Los parámetros se definen entre los paréntesis de la declaración de la función y se utilizan dentro del cuerpo de la función como variables locales.
+
+### Sintaxis para definir parámetros en una función:
+
+```c
+tipo_retorno nombre_funcion(tipo_parametro parametro1, tipo_parametro parametro2, ...) {
+    // Cuerpo de la función
+}
+```
+
+- `tipo_parametro parametro1, tipo_parametro parametro2, ...`: Aquí se definen los parámetros que la función acepta. Cada parámetro consta de un tipo de dato y un nombre. Estos parámetros pueden ser utilizados dentro del cuerpo de la función como variables locales.
+
+### Ejemplo de función con parámetros:
+
+```c
+#include <stdio.h>
+
+// Función que toma dos enteros como parámetros e imprime su suma
+void imprimirSuma(int a, int b) {
+    int suma = a + b;
+    printf("La suma de %d y %d es: %d\n", a, b, suma);
+}
+
+int main() {
+    int num1 = 5, num2 = 3;
+
+    imprimirSuma(num1, num2); // Llamada a la función imprimirSuma con dos enteros como argumentos
+
+    return 0;
+}
+```
+
+En este ejemplo:
+- `imprimirSuma` es una función que toma dos parámetros `a` y `b`, ambos de tipo entero.
+- Dentro de la función, `a` y `b` se utilizan como variables locales para calcular la suma de los números proporcionados.
+- La función `imprimirSuma()` se llama desde `main()`, pasando `num1` y `num2` como argumentos.
+- La función utiliza estos argumentos para calcular e imprimir la suma de los dos números.
+
+Los parámetros permiten que una función trabaje con diferentes valores cada vez que es llamada, lo que le brinda flexibilidad y reutilización al código. Además, permiten que el código sea más genérico al aceptar diferentes valores de entrada.

@@ -1,0 +1,40 @@
+La cláusula `else` en C se utiliza junto con la estructura `if` para proporcionar una alternativa en caso de que la condición en el `if` sea falsa (`false`). Básicamente, `else` permite ejecutar un bloque de código cuando la condición en el `if` no se cumple. La sintaxis general es la siguiente:
+
+```c
+if (condición) {
+    // Bloque de código si la condición es verdadera
+} else {
+    // Bloque de código si la condición es falsa
+}
+```
+
+- Si la `condición` en el `if` es verdadera (`true`), se ejecuta el bloque de código dentro del `if`.
+- Si la `condición` en el `if` es falsa (`false`), se omite el bloque de código del `if` y se ejecuta el bloque de código dentro del `else`.
+
+Aquí tienes un ejemplo simple que utiliza `if` y `else` para verificar si un número es positivo o negativo:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numero = -5;
+
+    if (numero >= 0) {
+        printf("El número es positivo o cero.\n");
+    } else {
+        printf("El número es negativo.\n");
+    }
+
+    return 0;
+}
+```
+
+Explicación del ejemplo:
+- `numero >= 0` verifica si `numero` es mayor o igual a `0`. Si es verdadero, se imprime que el número es positivo o cero; de lo contrario, se imprime que es negativo.
+
+La salida de este programa sería:
+```
+El número es negativo.
+```
+
+La cláusula `else` proporciona una opción alternativa cuando la condición en el `if` no se cumple, lo que permite que el programa tome diferentes caminos basados en la evaluación de la condición. En algunos casos, `else` se combina con múltiples bloques `if` (`else if`) para manejar múltiples condiciones en secuencia.

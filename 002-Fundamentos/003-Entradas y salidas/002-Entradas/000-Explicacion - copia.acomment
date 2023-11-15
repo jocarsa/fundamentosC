@@ -1,0 +1,28 @@
+En el contexto de programación en el lenguaje C, las entradas se refieren a los datos o información que un programa recibe del entorno externo, como el usuario o algún otro dispositivo. La función principal para recibir entradas en C desde la entrada estándar (normalmente el teclado) es `scanf()`.
+
+La función `scanf()` se utiliza para leer datos de entrada del usuario y asignar esos valores a variables en el programa. Esta función espera la introducción de datos desde la entrada estándar (teclado) y puede tomar diferentes formatos dependiendo del tipo de dato que se espera recibir.
+
+Aquí tienes un ejemplo básico que utiliza `scanf()` para recibir un número entero ingresado por el usuario desde la consola y lo almacena en una variable:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numero;
+
+    printf("Ingrese un número entero: ");
+    scanf("%d", &numero); // Lee un número ingresado por el usuario desde la consola
+
+    printf("El número ingresado es: %d\n", numero);
+
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- `printf()` se usa para imprimir un mensaje que solicita al usuario que ingrese un número.
+- `scanf()` se utiliza para leer el número entero introducido por el usuario desde la consola y almacenarlo en la variable `numero`. El formato `%d` especifica que se espera un número entero.
+- Finalmente, `printf()` se emplea para mostrar en la consola el número ingresado por el usuario.
+
+Es importante tener en cuenta que `scanf()` debe utilizarse con precaución, ya que puede tener comportamientos inesperados si la entrada no coincide con el formato esperado, lo que podría llevar a errores en la ejecución del programa. Además, es posible realizar otras operaciones de entrada más avanzadas y complejas utilizando diversas técnicas y funciones disponibles en C.

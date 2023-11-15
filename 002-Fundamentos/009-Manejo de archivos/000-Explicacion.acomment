@@ -1,0 +1,74 @@
+En C, el manejo de archivos se realiza mediante el uso de funciones y estructuras proporcionadas por la biblioteca estándar `stdio.h`. El manejo de archivos implica operaciones como abrir, cerrar, leer y escribir datos en archivos en el sistema de archivos de la computadora.
+
+### Pasos básicos para el manejo de archivos en C:
+
+1. **Incluir la biblioteca `stdio.h`:**
+   Para utilizar las funciones relacionadas con el manejo de archivos, es necesario incluir la biblioteca estándar `stdio.h`.
+
+   ```c
+   #include <stdio.h>
+   ```
+
+2. **Abrir un archivo:**
+   La función `fopen()` se utiliza para abrir un archivo en un modo específico (lectura, escritura, etc.). Toma dos argumentos: el nombre del archivo y el modo de apertura.
+
+   ```c
+   FILE *archivo;
+   archivo = fopen("nombre_archivo.txt", "r"); // Modo de lectura
+   ```
+
+3. **Verificar si el archivo se abrió correctamente:**
+   Es importante verificar si el archivo se abrió con éxito antes de realizar operaciones en él.
+
+   ```c
+   if (archivo == NULL) {
+       // Manejar el error si no se pudo abrir el archivo
+   }
+   ```
+
+4. **Leer o escribir en el archivo:**
+   Para leer o escribir datos en el archivo, se utilizan las funciones `fprintf()`, `fscanf()`, `fputc()`, `fputs()`, `fgetc()`, `fgets()`, entre otras, dependiendo de la operación deseada.
+
+   ```c
+   // Ejemplo de escritura en un archivo
+   fprintf(archivo, "Hola, mundo!\n");
+   ```
+
+5. **Cerrar el archivo:**
+   Una vez finalizadas las operaciones en el archivo, es importante cerrarlo utilizando la función `fclose()`.
+
+   ```c
+   fclose(archivo);
+   ```
+
+### Ejemplo de lectura de un archivo en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    FILE *archivo;
+    char caracter;
+
+    archivo = fopen("archivo.txt", "r"); // Abrir en modo lectura
+
+    if (archivo == NULL) {
+        printf("No se pudo abrir el archivo.\n");
+        return 1;
+    }
+
+    printf("Contenido del archivo:\n");
+
+    while ((caracter = fgetc(archivo)) != EOF) { // Leer el archivo hasta llegar al final (EOF)
+        printf("%c", caracter);
+    }
+
+    fclose(archivo); // Cerrar el archivo
+
+    return 0;
+}
+```
+
+Este programa abre un archivo llamado "archivo.txt" en modo lectura, imprime su contenido carácter por carácter en la consola y luego cierra el archivo.
+
+Es importante manejar adecuadamente los errores al trabajar con archivos, verificando si se abrieron correctamente y realizando un manejo adecuado en caso de errores. Además, es crucial cerrar los archivos después de su uso para liberar recursos y evitar problemas de lectura/escritura.

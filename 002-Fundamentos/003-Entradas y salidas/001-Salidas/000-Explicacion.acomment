@@ -1,0 +1,40 @@
+En el lenguaje de programación C, las salidas se refieren a la información o datos que un programa produce y muestra al usuario o al entorno exterior. La función principal utilizada para mostrar salidas en la consola es `printf()`.
+
+La función `printf()` es una función de salida formateada que permite imprimir texto y datos en la pantalla o en el dispositivo de salida estándar. Utiliza especificadores de formato para mostrar diferentes tipos de datos como caracteres, cadenas de caracteres, números enteros, números flotantes, etc.
+
+Aquí hay un ejemplo básico que utiliza `printf()` para mostrar un mensaje simple en la consola:
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hola, mundo!\n"); // Muestra el mensaje "Hola, mundo!" en la consola
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- `printf()` es la función utilizada para mostrar la salida.
+- `"Hola, mundo!\n"` es la cadena de caracteres que se muestra en la consola. `\n` representa un carácter de nueva línea, que provoca que la siguiente salida se muestre en una nueva línea.
+
+Además de mostrar texto, `printf()` también puede mostrar valores de variables utilizando especificadores de formato. Por ejemplo:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numero = 10;
+    float decimal = 3.14;
+
+    printf("El valor de numero es: %d\n", numero);
+    printf("El valor de decimal es: %.2f\n", decimal);
+
+    return 0;
+}
+```
+
+- `%d` se utiliza como especificador de formato para mostrar un número entero (`int`).
+- `%.2f` se utiliza como especificador de formato para mostrar un número de punto flotante (`float`) con dos decimales después del punto decimal.
+
+Estos son solo ejemplos básicos. `printf()` es una función muy versátil y tiene numerosas opciones de formato que permiten controlar cómo se presentan los datos en la salida. Es una herramienta fundamental para mostrar información de manera legible para el usuario o para registrar resultados y mensajes en la consola mientras se ejecuta un programa en C.

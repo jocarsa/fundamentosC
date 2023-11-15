@@ -1,0 +1,66 @@
+La estructura `switch` en C es una estructura de control de selección que se utiliza para tomar decisiones basadas en el valor de una expresión o variable. Permite ejecutar diferentes bloques de código dependiendo del valor de una expresión. La sintaxis general de la estructura `switch` es la siguiente:
+
+```c
+switch (expresión) {
+    case valor1:
+        // Bloque de código si la expresión coincide con valor1
+        break;
+    case valor2:
+        // Bloque de código si la expresión coincide con valor2
+        break;
+    // Pueden agregarse más casos según sea necesario
+    default:
+        // Bloque de código si la expresión no coincide con ningún caso
+        break;
+}
+```
+
+- `expresión` es una expresión cuyo valor se va a comparar con cada `case`.
+- `case valor1:` y `case valor2:` son etiquetas de casos que representan valores específicos que la `expresión` puede tomar.
+- Si la `expresión` coincide con un `valor`, se ejecutará el bloque de código correspondiente a ese `case`. La palabra clave `break` se utiliza para salir de la estructura `switch` después de ejecutar el bloque de código correspondiente.
+- Si ninguno de los `case` coincide con la `expresión`, se ejecutará el bloque de código dentro de `default` (opcional).
+
+Aquí tienes un ejemplo que utiliza `switch` para determinar el día de la semana correspondiente a un número del 1 al 7:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int dia = 4;
+
+    switch (dia) {
+        case 1:
+            printf("Lunes\n");
+            break;
+        case 2:
+            printf("Martes\n");
+            break;
+        case 3:
+            printf("Miércoles\n");
+            break;
+        case 4:
+            printf("Jueves\n");
+            break;
+        case 5:
+            printf("Viernes\n");
+            break;
+        case 6:
+            printf("Sábado\n");
+            break;
+        case 7:
+            printf("Domingo\n");
+            break;
+        default:
+            printf("Número inválido\n");
+            break;
+    }
+
+    return 0;
+}
+```
+
+Explicación del ejemplo:
+- Dependiendo del valor de `dia`, se ejecutará el bloque de código correspondiente a ese `case`. Por ejemplo, si `dia` es igual a `4`, imprimirá "Jueves".
+- La declaración `default` se ejecuta si ningún `case` coincide con el valor de la `expresión`.
+
+Es importante usar `break` al final de cada `case` para evitar la ejecución de otros bloques de código después del caso correspondiente. Si se omite el `break`, se ejecutarán todos los bloques de código después del `case` coincidente hasta que se encuentre un `break` o se finalice la estructura `switch`.

@@ -1,0 +1,38 @@
+En C, las variables son espacios de memoria que se utilizan para almacenar y representar datos. Cada variable tiene un nombre único que se utiliza para hacer referencia a esa ubicación de memoria, permitiendo así la manipulación y el procesamiento de datos dentro de un programa.
+
+Para usar una variable en C, primero se debe declarar indicando su tipo de dato y su nombre. Los tipos de datos comunes en C incluyen `int` (entero), `float` (número de punto flotante), `char` (carácter), `double` (número de punto flotante de doble precisión), entre otros.
+
+Aquí hay un ejemplo simple de declaración de variables en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    // Declaración de variables
+    int edad; // Variable para almacenar la edad (entero)
+    float altura; // Variable para almacenar la altura (número de punto flotante)
+    char inicial; // Variable para almacenar una inicial (carácter)
+
+    // Asignación de valores a las variables
+    edad = 25;
+    altura = 1.75;
+    inicial = 'J';
+
+    // Mostrar los valores de las variables
+    printf("La edad es: %d\n", edad);
+    printf("La altura es: %f\n", altura);
+    printf("La inicial es: %c\n", inicial);
+
+    return 0;
+}
+```
+
+En este ejemplo:
+
+- Se declaran tres variables: `edad`, `altura` e `inicial`, de tipo `int`, `float` y `char` respectivamente.
+- Se asignan valores a las variables utilizando el operador de asignación (`=`).
+- Se utiliza la función `printf()` para mostrar el contenido de las variables en la consola.
+
+Es importante tener en cuenta que las variables en C deben declararse antes de su uso, lo que significa que se debe especificar su tipo y nombre antes de utilizarlas en el programa. Además, las variables pueden ser modificadas asignándoles nuevos valores en cualquier momento durante la ejecución del programa.
+
+Las variables son fundamentales en la programación en C, ya que permiten el almacenamiento y la manipulación de datos, lo que facilita la escritura de programas que realizan cálculos, toman decisiones y realizan diversas operaciones en función de los datos que contienen.

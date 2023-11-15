@@ -1,0 +1,39 @@
+En el lenguaje de programación C, hay varios tipos de datos que se utilizan para manejar números decimales. Los tipos de datos principales para representar números decimales son `float` y `double`.
+
+1. **float:** Es un tipo de dato de coma flotante de precisión simple. Se utiliza para almacenar números decimales con una precisión limitada. Por lo general, utiliza 4 bytes de memoria y proporciona alrededor de 6 dígitos de precisión después del punto decimal.
+
+   Ejemplo:
+   ```c
+   float numero_flotante = 3.14159f; // Se usa 'f' al final para indicar un número float
+   ```
+
+2. **double:** Es un tipo de dato de coma flotante de doble precisión. Ofrece mayor precisión que `float`, generalmente utilizando 8 bytes de memoria. Proporciona alrededor de 15 dígitos de precisión después del punto decimal.
+
+   Ejemplo:
+   ```c
+   double numero_doble = 3.141592653589793; // No se requiere ningún sufijo especial
+   ```
+
+Aquí hay un ejemplo que muestra el uso de estos tipos de datos:
+
+```c
+#include <stdio.h>
+
+int main() {
+    float mi_float = 3.14f;
+    double mi_double = 3.141592653589793;
+
+    printf("Valor de mi_float: %f\n", mi_float);
+    printf("Valor de mi_double: %lf\n", mi_double); // Se usa %lf para un double
+
+    return 0;
+}
+```
+
+En el código anterior:
+
+- Se declaran variables `mi_float` y `mi_double` como `float` y `double` respectivamente.
+- Se les asignan valores decimales.
+- `printf()` se usa para imprimir los valores de estas variables. `%f` se utiliza para `float` y `%lf` para `double` en la función `printf()`.
+
+Es importante tener en cuenta que, aunque `double` ofrece mayor precisión que `float`, ocupa más memoria y puede no ser necesario en todas las situaciones. La elección del tipo de datos depende de la precisión requerida y de la cantidad de memoria disponible en el programa.
