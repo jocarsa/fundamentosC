@@ -1,4 +1,4 @@
-¡Claro! En este libro nos sumergiremos en los fundamentos del lenguaje de programación C utilizando un enfoque simple y directo. En lugar de depender de un entorno de desarrollo integrado (IDE) complejo, nos centraremos en un editor de texto sencillo y en el uso directo de la línea de comandos para compilar nuestros programas.
+En este libro nos sumergiremos en los fundamentos del lenguaje de programación C utilizando un enfoque simple y directo. En lugar de depender de un entorno de desarrollo integrado (IDE) complejo, nos centraremos en un editor de texto sencillo y en el uso directo de la línea de comandos para compilar nuestros programas.
 
 **Editor de texto sencillo:**
 Utilizaremos un editor de texto básico para escribir nuestro código en C. Esto nos permitirá enfocarnos en la lógica de programación y en comprender los conceptos fundamentales del lenguaje. Ejemplos de editores de texto simples pueden incluir Notepad (en Windows), Nano o Vim (en sistemas UNIX/Linux), o cualquier otro editor de texto de tu preferencia que no agregue funcionalidades complejas para escribir código.
