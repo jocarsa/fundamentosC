@@ -1,0 +1,17 @@
+C se clasifica principalmente como un lenguaje compilado, ya que sigue un proceso de compilación antes de la ejecución del programa. Sin embargo, cabe destacar algunos puntos relevantes sobre cómo C se relaciona con estas clasificaciones:
+
+### C como lenguaje compilado:
+
+1. **Proceso de compilación:** En C, el código fuente se compila en un archivo ejecutable específico para la plataforma de destino mediante un compilador (como GCC, Clang, entre otros). Durante la compilación, el código fuente se traduce completamente a código máquina entendible por el hardware de la computadora.
+
+2. **Ejecución del programa:** Una vez compilado, el programa generado se ejecuta directamente en la máquina objetivo sin necesidad de procesamiento adicional. El archivo ejecutable contiene instrucciones en código máquina listas para ser ejecutadas.
+
+### Características adicionales de C:
+
+1. **Portabilidad:** Aunque C es un lenguaje compilado, su código fuente es relativamente portátil. Los programas escritos en C se pueden compilar para diferentes plataformas, siempre que el compilador esté disponible para esa plataforma en particular.
+
+2. **Intérpretes de C:** Existen intérpretes de C, como CINT o Ch, que permiten ejecutar fragmentos de código C de manera interactiva, línea por línea, aunque esto es menos común y no es la forma típica de ejecutar programas C.
+
+3. **Lenguaje de bajo nivel:** A pesar de ser un lenguaje de alto nivel en comparación con el ensamblador o el código máquina, C proporciona acceso a nivel de memoria y operaciones de bajo nivel a través de punteros, lo que lo hace más cercano al hardware en comparación con lenguajes de programación de más alto nivel.
+
+En resumen, aunque C es principalmente un lenguaje compilado, su portabilidad y su capacidad para acceder a bajo nivel lo sitúan en un lugar intermedio entre los lenguajes de alto y bajo nivel. Ofrece un equilibrio entre la eficiencia, el control del hardware y la portabilidad que lo ha mantenido como un lenguaje ampliamente utilizado en una variedad de aplicaciones durante décadas.

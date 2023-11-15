@@ -1,0 +1,21 @@
+GCC, que significa "GNU Compiler Collection", es un conjunto de compiladores de código abierto desarrollado originalmente por el Proyecto GNU de la Free Software Foundation (FSF). Este conjunto de herramientas es uno de los compiladores más populares y ampliamente utilizados en el mundo del desarrollo de software.
+
+GCC es conocido por su versatilidad y soporte para múltiples lenguajes de programación, no limitándose únicamente a uno. Inicialmente, fue diseñado para el lenguaje C, pero a lo largo del tiempo se ha expandido para admitir muchos otros lenguajes, incluyendo C++, Objective-C, Fortran, Ada, Go y otros más.
+
+Este compilador sigue un enfoque modular, lo que significa que está compuesto por varios componentes independientes. Algunos de estos componentes son:
+
+1. **Frontends:** Son los encargados de interpretar y procesar el código fuente escrito en un lenguaje específico. Por ejemplo, hay frontends para C, C++, Fortran, etc.
+
+2. **Backends:** Se encargan de generar el código de máquina específico para la arquitectura de destino a partir del código intermedio producido por los frontends.
+
+GCC es altamente portable, lo que significa que puede ejecutarse en una amplia gama de sistemas operativos y arquitecturas de hardware diferentes, como Linux, Windows, macOS, Unix, entre otros. Además, ofrece numerosas optimizaciones para mejorar la eficiencia y el rendimiento del código generado.
+
+Algunas de las herramientas proporcionadas por GCC incluyen:
+
+- **gcc:** El compilador para el lenguaje C.
+- **g++:** El compilador para el lenguaje C++.
+- **gfortran:** El compilador para el lenguaje Fortran.
+- **gcov:** Una herramienta para medir la cobertura del código.
+- **gdb:** Un depurador que trabaja en conjunto con GCC.
+
+La flexibilidad, la amplia gama de lenguajes y plataformas soportados, así como su estatus de software de código abierto, han contribuido a la popularidad y al uso generalizado de GCC en la comunidad de desarrollo de software.

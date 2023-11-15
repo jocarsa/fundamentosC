@@ -1,0 +1,13 @@
+En el presente, el lenguaje de programación C sigue siendo relevante y se mantiene como una herramienta fundamental en el mundo del desarrollo de software y la informática por varias razones:
+
+1. **Desarrollo de sistemas y sistemas embebidos:** El lenguaje C sigue siendo ampliamente utilizado en el desarrollo de sistemas operativos, compiladores y firmware para sistemas embebidos. Su capacidad para interactuar directamente con el hardware y su eficiencia lo hacen invaluable en entornos donde el control de bajo nivel es crucial.
+
+2. **Rendimiento y eficiencia:** C es conocido por su eficiencia en términos de consumo de recursos de hardware y velocidad de ejecución. Es ideal para aplicaciones que requieren un rendimiento óptimo, como controladores de dispositivos, videojuegos, aplicaciones de tiempo real y sistemas de bajo nivel.
+
+3. **Infraestructura crítica:** Muchas infraestructuras críticas, como sistemas de telecomunicaciones, sistemas de control industrial, sistemas de archivos, entre otros, están escritas en C debido a su confiabilidad y capacidad para manejar tareas críticas.
+
+4. **Base para otros lenguajes:** Lenguajes derivados como C++ (una extensión de C) y otros, como Objective-C, C#, Rust y Go, han tomado elementos de C y se han construido sobre su base. La familiaridad con C sigue siendo una habilidad valiosa para los programadores que desean trabajar con estos lenguajes.
+
+5. **Educación y comprensión fundamental:** A pesar de la proliferación de lenguajes de más alto nivel, muchos programas educativos y cursos de informática aún enseñan los fundamentos de la programación utilizando C. Esto se debe a que proporciona una comprensión profunda de los conceptos fundamentales de la programación y la gestión de la memoria.
+
+Aunque en áreas de desarrollo de aplicaciones web, móviles y de alto nivel se utilizan lenguajes más modernos y de más alto nivel debido a su productividad y facilidad de uso, el lenguaje C sigue manteniendo su relevancia en áreas donde la eficiencia, el control de bajo nivel y la portabilidad son cruciales. Además, su legado y su influencia en el desarrollo de software continúan siendo significativos en la actualidad.

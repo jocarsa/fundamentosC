@@ -1,0 +1,25 @@
+Por supuesto, en este libro se va a seguir una estructura que consta de dos partes fundamentales:
+
+### Primera parte: Fundamentos teóricos de programación en C
+
+En esta sección inicial del libro, se presentarán y explicarán los conceptos fundamentales de programación en el lenguaje C. Algunos de los temas que se abordarán incluyen:
+
+1. **Sintaxis y estructura del lenguaje:** Introducción a la sintaxis del lenguaje C, declaraciones de variables, tipos de datos, operadores y estructuras de control como bucles y condicionales.
+   
+2. **Funciones y procedimientos:** Explicación del concepto de funciones, su definición, uso y creación, así como la forma en que se manejan los argumentos y los valores de retorno.
+
+3. **Punteros y gestión de memoria:** Comprender la importancia de los punteros en C, su utilización para acceder y manipular datos, y la gestión de la memoria en términos de asignación y liberación de memoria.
+
+4. **Estructuras y uniones:** Introducción a las estructuras y uniones para manejar conjuntos de datos relacionados.
+
+### Segunda parte: Ejercicio práctico aplicando los conceptos teóricos
+
+En esta segunda parte del libro, se llevarán a cabo ejercicios prácticos y la implementación de un proyecto o ejemplos de aplicación que demuestren la aplicación de los conceptos teóricos aprendidos en la primera parte. Esto puede incluir:
+
+1. **Desarrollo de un programa completo:** Se guiará al lector a través de la creación de un programa completo en C, paso a paso, utilizando los conceptos aprendidos.
+
+2. **Aplicación de conceptos en un proyecto:** Se desarrollará un proyecto práctico más amplio que aplique diversos aspectos de la programación en C, como la manipulación de archivos, la gestión de memoria, el uso de estructuras, entre otros.
+
+3. **Ejemplos de casos prácticos:** Se presentarán ejemplos prácticos, problemas resueltos o desafíos para que los lectores apliquen y pongan a prueba sus habilidades y conocimientos recién adquiridos.
+
+Esta estructura permitirá a los lectores asimilar los conceptos teóricos de programación en C en la primera parte, y luego ver cómo se aplican en situaciones y problemas reales en la segunda parte a través de ejercicios y proyectos prácticos. De esta manera, se refuerzan y consolidan los conocimientos adquiridos en la teoría mediante su aplicación práctica.

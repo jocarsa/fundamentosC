@@ -1,0 +1,23 @@
+La tipificación de datos en programación se refiere al concepto de asignar un tipo específico a cada variable o dato en un lenguaje de programación. La tipificación determina el tipo de datos que una variable puede contener y las operaciones que se pueden realizar con ella. En el contexto de C, la tipificación puede ser clasificada en dos categorías principales:
+
+### 1. Tipificación estática:
+En C, se emplea la tipificación estática, lo que significa que los tipos de datos de las variables se especifican en tiempo de compilación y no cambian durante la ejecución del programa. Algunas características de la tipificación estática en C incluyen:
+
+- **Declaración explícita de tipos:** Antes de utilizar una variable, se debe declarar su tipo. Por ejemplo: `int a;` declara una variable `a` de tipo entero.
+  
+- **Verificación de tipos en tiempo de compilación:** El compilador verifica si las operaciones realizadas en las variables son consistentes con sus tipos. Por ejemplo, no se permite sumar una cadena de caracteres con un número entero sin una conversión explícita.
+
+### 2. Tipos de datos básicos en C:
+En C, se utilizan varios tipos de datos básicos para almacenar diferentes tipos de valores. Algunos de los tipos de datos básicos incluyen:
+
+- **Enteros (`int`, `short`, `long`):** Se utilizan para almacenar números enteros, con diferentes tamaños y rangos según el tipo.
+  
+- **Punto flotante (`float`, `double`):** Permiten almacenar números decimales, donde `float` tiene menos precisión que `double`.
+
+- **Caracteres (`char`):** Almacena caracteres individuales y se utilizan para representar caracteres alfanuméricos o valores numéricos ASCII.
+
+- **Tipos de datos `void`:** Se usa para indicar la falta de tipo, por ejemplo, en funciones que no devuelven ningún valor.
+
+Además de estos tipos básicos, C permite a los programadores definir sus propios tipos de datos utilizando estructuras (`struct`) y también soporta punteros, que son variables que almacenan direcciones de memoria.
+
+La tipificación en C es estricta y estática, lo que significa que el programador debe ser explícito al definir y usar los tipos de datos, lo que brinda un mayor control sobre el comportamiento del programa y ayuda a prevenir errores relacionados con el tipo de datos durante la ejecución.

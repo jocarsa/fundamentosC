@@ -1,0 +1,17 @@
+El lenguaje de programación C es uno de los lenguajes más influyentes y utilizados en la historia de la informática. Su desarrollo se atribuye principalmente a Dennis Ritchie, quien trabajó en los laboratorios Bell de AT&T junto con Ken Thompson.
+
+Aquí está la historia del lenguaje C en detalle:
+
+1. **Orígenes en el lenguaje B:** En los laboratorios Bell a finales de la década de 1960, Ken Thompson desarrolló un lenguaje llamado B, que era una evolución de BCPL. B era un lenguaje simple y de nivel alto diseñado para programar el sistema operativo UNIX. Sin embargo, tenía limitaciones, y Dennis Ritchie comenzó a buscar mejoras.
+
+2. **Creación del lenguaje C:** En 1972, Dennis Ritchie empezó a trabajar en un lenguaje que inicialmente llamó "Nueva versión de B" (New B o NB). Este nuevo lenguaje se desarrolló con la intención de solucionar las deficiencias de B y para ser utilizado en la reescritura del sistema operativo UNIX. A medida que se desarrollaba, se convirtió en lo que conocemos hoy como lenguaje C.
+
+3. **Principales características e innovaciones de C:** El lenguaje C combinaba la portabilidad de alto nivel con las capacidades de bajo nivel, permitiendo a los programadores acceder directamente a la memoria y al hardware. Introdujo estructuras de control como bucles, condicionales y funciones, lo que facilitó la escritura de programas más legibles y portátiles.
+
+4. **Desarrollo del estándar ANSI C:** A medida que el lenguaje se volvía más popular, surgieron diferentes variantes. En 1983, el estándar ANSI (American National Standards Institute) formó un comité para estandarizar el lenguaje C, resultando en el estándar ANSI C, publicado en 1989. Este estándar proporcionó reglas y especificaciones que aseguraban la compatibilidad entre diferentes implementaciones de C.
+
+5. **Evolución posterior y estándar C99:** En 1999 se publicó el estándar C99, que introdujo nuevas características al lenguaje, como declaraciones de variables en cualquier lugar dentro del código y mejoras en las funciones de biblioteca.
+
+6. **Legado y popularidad:** El lenguaje C tuvo un impacto significativo en la informática. Fue ampliamente adoptado en el desarrollo de sistemas operativos, compiladores, aplicaciones de sistemas embebidos y mucho más. Además, su influencia se extiende a otros lenguajes de programación, como C++, Java y Python, que tomaron elementos de sintaxis y estructuras de C.
+
+El lenguaje C sigue siendo relevante y ampliamente utilizado debido a su eficiencia, portabilidad y versatilidad. Su influencia en la industria de la programación es innegable, y su legado continúa hasta la actualidad.

@@ -1,0 +1,15 @@
+En el espectro de lenguajes de programación, C se sitúa en una posición intermedia entre los lenguajes de alto nivel y los lenguajes de bajo nivel. Aunque se considera un lenguaje de alto nivel en comparación con lenguajes de programación de nivel más bajo como el ensamblador o el código máquina, también posee características que lo acercan al nivel de bajo nivel:
+
+### Características de C como lenguaje de programación de alto nivel:
+
+1. **Abstracción de bajo nivel:** Aunque C permite un control relativamente cercano al hardware, brinda una abstracción de bajo nivel en comparación con lenguajes de programación de más bajo nivel como el ensamblador. Proporciona operaciones de más alto nivel que permiten a los programadores expresar la lógica del programa de una manera más comprensible y portátil.
+
+2. **Portabilidad:** C es conocido por su portabilidad ya que es posible escribir programas en C que pueden ejecutarse en diferentes plataformas y sistemas operativos con pocos cambios.
+
+### Características de C como lenguaje de programación de bajo nivel:
+
+1. **Acceso directo a memoria:** C permite a los programadores acceder directamente a la memoria y al hardware del sistema. Ofrece punteros, aritmética de punteros y la capacidad de manipular direcciones de memoria de manera directa, lo que lo hace más cercano al hardware en comparación con muchos lenguajes de alto nivel modernos.
+
+2. **No cuenta con características de orientación a objetos:** A diferencia de los lenguajes de alto nivel orientados a objetos como Java o Python, C no tiene soporte nativo para la programación orientada a objetos. No ofrece características como herencia, polimorfismo o encapsulamiento.
+
+En resumen, C se sitúa en un punto intermedio entre los lenguajes de alto nivel y los de bajo nivel. Ofrece un equilibrio entre la portabilidad, la eficiencia y el control del hardware, lo que lo hace un lenguaje poderoso y ampliamente utilizado, especialmente en aplicaciones de sistemas operativos, sistemas embebidos, desarrollo de compiladores y aplicaciones que requieren un control cercano del hardware.

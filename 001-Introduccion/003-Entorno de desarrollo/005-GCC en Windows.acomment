@@ -1,0 +1,25 @@
+Para instalar GCC (GNU Compiler Collection) en Windows, puedes utilizar herramientas como MinGW (Minimalist GNU for Windows) o MSYS2, que proporcionan un entorno similar al de Unix/Linux, incluyendo el compilador GCC y otras herramientas del entorno GNU. A continuación, te explico cómo instalar GCC utilizando MinGW:
+
+**Instalación de GCC con MinGW:**
+
+1. **Descarga e instalación de MinGW:**
+
+   - Visita el sitio web de MinGW (https://osdn.net/projects/mingw/) y descarga el instalador. Selecciona la opción "Download Installer" o "Descargar instalador".
+   
+   - Ejecuta el instalador descargado y sigue las instrucciones de instalación. Durante la instalación, asegúrate de seleccionar "mingw32-base" y "mingw32-gcc-g++" (o versiones similares) en la lista de paquetes para instalar el compilador C y C++.
+
+2. **Configuración del sistema:**
+
+   - Después de la instalación, agrega la ruta de MinGW al PATH del sistema:
+   
+     - Haz clic con el botón derecho en "Este PC" o "Mi PC" y selecciona "Propiedades".
+     - Haz clic en "Configuración avanzada del sistema".
+     - En la ventana que aparece, haz clic en "Variables de entorno".
+     - Selecciona la variable "Path" en "Variables del sistema" y haz clic en "Editar".
+     - Agrega la ruta de instalación de MinGW (normalmente algo como `C:\MinGW\bin`) al final de la lista separada por punto y coma (`;`).
+
+3. **Verificación de la instalación:**
+
+   - Abre una ventana de comandos (cmd) y escribe `gcc -v` y presiona Enter. Deberías ver la información de la versión de GCC instalada, lo que indica que la instalación fue exitosa.
+
+Recuerda que este proceso puede variar ligeramente según la versión de MinGW que estés utilizando, pero estos pasos generales deberían ayudarte a instalar GCC en tu sistema Windows utilizando MinGW.

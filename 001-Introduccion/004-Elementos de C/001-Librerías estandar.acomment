@@ -1,0 +1,36 @@
+En el lenguaje de programación C, las librerías por defecto, también conocidas como librerías estándar, son conjuntos de funciones, macros y tipos de datos que están disponibles para cualquier programa escrito en C sin necesidad de importar o instalar librerías adicionales. Estas librerías se encuentran especificadas en el estándar del lenguaje C y proporcionan una amplia gama de funcionalidades para realizar diversas tareas.
+
+Las principales librerías estándar de C incluyen:
+
+### 1. **Librería estándar de entrada y salida (stdio.h):**
+   Esta librería proporciona funciones para entrada y salida estándar, incluyendo:
+   - `printf()` y `scanf()` para la lectura y escritura por consola.
+   - `fopen()`, `fclose()`, `fread()`, `fwrite()`, entre otras, para operaciones de archivos.
+   - `fprintf()` y `fscanf()` para entrada y salida formateada a archivos.
+
+### 2. **Librería de manipulación de cadenas (string.h):**
+   Ofrece funciones para manipular cadenas de caracteres, incluyendo:
+   - `strlen()`, `strcpy()`, `strcat()`, `strcmp()`, entre otras, para operaciones con cadenas.
+   - `memset()` y `memcpy()` para manejar operaciones de memoria.
+
+### 3. **Librería de funciones matemáticas (math.h):**
+   Contiene funciones matemáticas estándar, como:
+   - `sqrt()`, `pow()`, `sin()`, `cos()`, `log()`, entre otras, para operaciones matemáticas.
+
+### 4. **Librería de gestión de memoria (stdlib.h):**
+   Proporciona funciones para gestión de memoria y utilidades, tales como:
+   - `malloc()`, `calloc()`, `realloc()` para asignación dinámica de memoria.
+   - `free()` para liberar la memoria asignada.
+
+### 5. **Librería de tipos y constantes estándar (stdint.h, limits.h, float.h):**
+   Define tipos de datos y constantes, incluyendo:
+   - Tipos de datos de tamaño fijo como `int8_t`, `uint16_t`, etc., en `stdint.h`.
+   - Constantes para los límites de los tipos de datos en `limits.h` y `float.h`.
+
+### 6. **Librería de manejo de errores (errno.h):**
+   Contiene la variable `errno` y funciones relacionadas para el manejo de errores en tiempo de ejecución.
+
+### 7. **Librería de tiempo (time.h):**
+   Proporciona funciones relacionadas con la gestión de tiempo y fechas, como `time()`, `ctime()`, `difftime()`, entre otras.
+
+Estas son solo algunas de las librerías estándar más comunes en C. Su inclusión es crucial para el desarrollo de programas en C, ya que ofrecen un conjunto de herramientas sólidas y esenciales que abarcan una amplia gama de funcionalidades sin depender de librerías externas.

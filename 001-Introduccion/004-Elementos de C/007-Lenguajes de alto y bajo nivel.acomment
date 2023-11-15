@@ -1,0 +1,27 @@
+Los lenguajes de programación se clasifican comúnmente en dos categorías principales según su nivel de abstracción: lenguajes de alto nivel y lenguajes de bajo nivel. Estos términos se refieren al nivel de cercanía o alejamiento que tienen del lenguaje máquina y del hardware subyacente. Aquí te explico cada uno de ellos:
+
+### Lenguajes de Alto Nivel:
+
+1. **Abstracción alta:** Los lenguajes de alto nivel están más alejados del lenguaje máquina y ofrecen un alto nivel de abstracción, lo que significa que están diseñados para ser más cercanos al lenguaje humano.
+  
+2. **Facilidad de uso:** Estos lenguajes están orientados a facilitar la escritura de programas, permitiendo a los programadores centrarse en la lógica del problema y no en los detalles de la implementación del hardware.
+  
+3. **Portabilidad:** Suelen ser más portables ya que se escriben independientemente de la arquitectura de la computadora y suelen ser más fáciles de entender y mantener.
+
+4. **Ejemplos:** Python, Java, JavaScript, C#, Ruby, PHP, entre otros.
+
+### Lenguajes de Bajo Nivel:
+
+1. **Abstracción baja:** Estos lenguajes están más cerca del lenguaje máquina y se corresponden más directamente con el hardware de la computadora.
+
+2. **Mayor control sobre el hardware:** Permiten un control más detallado sobre los recursos del sistema, como la memoria y el procesador.
+
+3. **Dificultad de uso:** Son más difíciles de entender y de escribir en comparación con los lenguajes de alto nivel, ya que requieren una comprensión más profunda del hardware y sus instrucciones.
+
+4. **Ejemplos:** Lenguaje ensamblador (Assembler), que representa comandos directos a nivel de hardware, y el código máquina, que es la representación binaria directa entendida por el procesador.
+
+### Consideraciones:
+
+- Los lenguajes de alto nivel están diseñados para ser más legibles, portables y fáciles de mantener, pero pueden sacrificar algo de eficiencia en términos de rendimiento.
+- Los lenguajes de bajo nivel, aunque más complejos, proporcionan un mayor control y eficiencia al interactuar directamente con el hardware.
+- En muchos casos, se utilizan lenguajes de alto nivel para la mayoría del desarrollo de aplicaciones debido a su facilidad de uso, mientras que se pueden utilizar lenguajes de bajo nivel para tareas específicas que requieren un control muy preciso del hardware.

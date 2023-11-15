@@ -1,0 +1,29 @@
+Los lenguajes de programación pueden clasificarse en diferentes categorías según cómo se procesan y ejecutan sus instrucciones. Aquí te explico sobre los lenguajes compilados, interpretados y otras variantes intermedias:
+
+### Lenguajes Compilados:
+
+1. **Proceso de compilación:** Los lenguajes compilados son traducidos completamente a lenguaje máquina (código binario) por un programa llamado compilador. El compilador transforma todo el código fuente del programa a un archivo ejecutable específico para la plataforma de destino.
+
+2. **Ejecución del programa:** Después de la compilación, se ejecuta el programa generado (ejecutable). Este archivo ejecutable contiene instrucciones directamente comprensibles por el hardware de la máquina en la que se va a ejecutar.
+
+3. **Ejemplos:** C, C++, Rust, Ada.
+
+### Lenguajes Interpretados:
+
+1. **Proceso de interpretación:** Los lenguajes interpretados son ejecutados línea por línea mediante un intérprete. En lugar de traducir todo el programa a código máquina de una vez, el intérprete lee y ejecuta el código fuente directamente.
+
+2. **Ejecución del programa:** El intérprete analiza, traduce y ejecuta el código fuente a medida que avanza. Esto hace que estos lenguajes sean más portables, pero generalmente más lentos en comparación con los lenguajes compilados.
+
+3. **Ejemplos:** Python, JavaScript (en navegadores web), Ruby.
+
+### Otros Puntos Intermedios:
+
+1. **Lenguajes Just-In-Time (JIT):** Algunos lenguajes utilizan una técnica híbrida, donde el código se compila a un código intermedio (bytecode) durante la fase de compilación inicial y luego este bytecode se interpreta o se compila a código máquina en tiempo de ejecución por un compilador JIT.
+
+2. **Lenguajes pre-compilados o semi-compilados:** Estos lenguajes se encuentran en un punto intermedio entre los lenguajes compilados e interpretados. El código fuente se compila a un formato intermedio y luego se ejecuta a través de una máquina virtual que puede interpretar o compilar ese código intermedio.
+
+### Consideraciones:
+
+- Los lenguajes compilados tienden a ser más eficientes en términos de rendimiento, ya que el código está optimizado y listo para ser ejecutado directamente por el hardware.
+- Los lenguajes interpretados son más portables, ya que el mismo código fuente puede ejecutarse en diferentes plataformas sin necesidad de recompilación, aunque a menudo son más lentos.
+- Los lenguajes intermedios como JIT y los pre-compilados buscan combinar ventajas de ambos enfoques, ofreciendo portabilidad y rendimiento aceptable.

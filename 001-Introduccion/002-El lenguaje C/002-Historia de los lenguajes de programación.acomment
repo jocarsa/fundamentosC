@@ -1,0 +1,15 @@
+La historia de los lenguajes de programación es una evolución fascinante que ha pasado por diversas etapas y ha dado lugar a una amplia gama de lenguajes con propósitos y características específicas. Aquí hay un resumen de los hitos más importantes:
+
+1. **Lenguajes tempranos y ensamblador (década de 1950):** El primer lenguaje de programación de alto nivel fue el Fortran (FORmula TRANslating System), desarrollado por IBM en 1957 para cálculos científicos y matemáticos. Al mismo tiempo, se desarrollaron lenguajes de bajo nivel como el ensamblador, que representaba instrucciones de máquina mediante mnemónicos.
+
+2. **Lenguajes imperativos y estructurados (década de 1960):** COBOL (COmmon Business Oriented Language) surgió en 1959 para aplicaciones comerciales. Luego, ALGOL (ALGOrithmic Language) introdujo conceptos fundamentales de estructuras de control y procedimientos. En 1964, BASIC (Beginner's All-purpose Symbolic Instruction Code) nació con el objetivo de ser un lenguaje simple para principiantes.
+
+3. **Lenguajes de alto nivel y orientados a objetos (década de 1970-1980):** En la década de 1970, se desarrollaron lenguajes como Pascal, diseñado para enseñar programación estructurada, y C, que se convirtió en un lenguaje popular por su eficiencia y portabilidad. En la década de 1980, nacieron lenguajes orientados a objetos como Smalltalk, C++, y posteriormente, Java.
+
+4. **Lenguajes de scripting y la web (década de 1990):** En los años 90, surgieron lenguajes de scripting como Perl, Python y Ruby, que se enfocaban en tareas de automatización y desarrollo web. En 1995, JavaScript se convirtió en el lenguaje de programación principal para la web dinámica.
+
+5. **Lenguajes modernos y especializados (2000 hasta la actualidad):** Desde principios del siglo XXI, han aparecido lenguajes modernos como Python, que ha ganado popularidad en diversas áreas, incluyendo la ciencia de datos y la inteligencia artificial. También han surgido lenguajes especializados como R para análisis estadístico, Swift para desarrollo iOS, y Go (Golang) para programación de sistemas.
+
+Además de estos, hay otros lenguajes de programación que se han utilizado en aplicaciones específicas como MATLAB en ingeniería, R para estadística, PHP para desarrollo web, entre otros.
+
+La evolución de los lenguajes de programación se ha centrado en mejorar la legibilidad, la productividad y la capacidad para resolver problemas específicos, dando lugar a una amplia variedad de opciones para los desarrolladores, cada uno con sus propias ventajas y desventajas.

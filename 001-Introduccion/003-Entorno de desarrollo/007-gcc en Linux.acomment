@@ -1,0 +1,65 @@
+En la mayoría de las distribuciones de Linux, la instalación de GCC (GNU Compiler Collection) es bastante sencilla ya que suele estar incluido en los repositorios oficiales. Aquí te muestro cómo instalar GCC en algunas distribuciones de Linux populares:
+
+### Debian, Ubuntu y derivados:
+
+1. Abre la Terminal.
+2. Actualiza la lista de paquetes con el comando:
+
+   ```bash
+   sudo apt update
+   ```
+
+3. Instala GCC con el siguiente comando:
+
+   ```bash
+   sudo apt install gcc
+   ```
+
+4. Para instalar también el compilador de C++ (g++), ejecuta:
+
+   ```bash
+   sudo apt install g++
+   ```
+
+### Red Hat, Fedora y derivados:
+
+1. Abre la Terminal.
+2. Actualiza la lista de paquetes con el comando:
+
+   ```bash
+   sudo dnf update
+   ```
+
+   (En versiones más antiguas que utilizan `yum`, usa `sudo yum update`.)
+
+3. Instala GCC con el siguiente comando:
+
+   ```bash
+   sudo dnf install gcc
+   ```
+
+   (O `sudo yum install gcc` para versiones más antiguas.)
+
+4. Para instalar también el compilador de C++ (g++), ejecuta:
+
+   ```bash
+   sudo dnf install gcc-c++
+   ```
+
+   (O `sudo yum install gcc-c++` para versiones más antiguas.)
+
+### Otras distribuciones:
+
+En otras distribuciones como Arch Linux (utilizando `pacman`), openSUSE (utilizando `zypper`), o cualquier otra que utilice un gestor de paquetes específico, puedes instalar GCC buscando e instalando el paquete `gcc`.
+
+### Verificación de la instalación:
+
+Después de instalar GCC, puedes verificar si está instalado correctamente abriendo la Terminal y ejecutando el siguiente comando:
+
+```bash
+gcc --version
+```
+
+Esto debería mostrar la información de la versión de GCC instalada en tu sistema.
+
+La instalación de GCC puede variar ligeramente según la distribución específica de Linux que estés utilizando, pero estos pasos generales deberían ayudarte a instalar GCC en la mayoría de las distribuciones basadas en Linux.

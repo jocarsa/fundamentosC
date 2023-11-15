@@ -1,0 +1,15 @@
+Los antecedentes del lenguaje de programación C se remontan a finales de la década de 1960 y principios de la década de 1970, cuando Dennis Ritchie en los laboratorios Bell de AT&T, junto con Ken Thompson, desarrollaron el sistema operativo UNIX.
+
+1. **B**: Antes de C, Dennis Ritchie y Ken Thompson trabajaron en un lenguaje llamado B, que fue una evolución de BCPL (Basic Combined Programming Language), desarrollado por Martin Richards. B era un lenguaje de alto nivel y fue utilizado para escribir parte del sistema operativo UNIX. Sin embargo, B carecía de algunas características esenciales que Ritchie consideraba importantes.
+
+2. **C**: En 1972, Dennis Ritchie comenzó a desarrollar un nuevo lenguaje, llamado inicialmente "Nueva versión de B" (New B o NB), que luego evolucionó a lo que conocemos como el lenguaje C. Este nuevo lenguaje se desarrolló principalmente para ser utilizado en la reescritura del sistema operativo UNIX.
+
+    - **Innovaciones clave de C**: C combinó la capacidad de programación de bajo nivel (acceso directo a la memoria y hardware) con características de alto nivel, lo que lo hizo muy versátil. Introdujo las estructuras de control básicas como bucles, condicionales y funciones, lo que permitió la escritura de programas más legibles y portables.
+
+    - **Portabilidad y eficiencia**: Una de las principales razones de la popularidad de C fue su portabilidad. La mayor parte de UNIX se reescribió en C, lo que permitió que este sistema operativo se trasladara a diferentes máquinas con relativa facilidad. Además, C proporcionaba acceso a las características específicas del hardware, lo que lo hacía eficiente y poderoso.
+
+3. **Estándar ANSI C y C99**: A lo largo del tiempo, C se ha estandarizado para garantizar la compatibilidad entre diferentes implementaciones. En 1989, el Instituto Nacional Estadounidense de Estándares (ANSI) publicó una especificación para el lenguaje C conocida como ANSI C. Posteriormente, en 1999, se publicó el estándar C99, que introdujo nuevas características al lenguaje.
+
+4. **Legado y continuidad**: La influencia del lenguaje C en el mundo de la programación ha sido enorme. Muchos lenguajes modernos, como C++, Java, Python y otros, tienen influencia directa o indirecta de C en su sintaxis o funcionalidades. C sigue siendo ampliamente utilizado en sistemas operativos, desarrollo de software de sistemas, compiladores, y en áreas donde se requiere un control de bajo nivel y eficiencia.
+
+El desarrollo del lenguaje C y su impacto en la informática moderna lo convierten en una piedra angular en la historia de la programación y la informática en general.

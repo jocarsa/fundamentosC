@@ -1,0 +1,19 @@
+Un compilador es una herramienta fundamental en el desarrollo de software que traduce el código fuente escrito en un lenguaje de programación a un código ejecutable entendible por una computadora. Este proceso de traducción se realiza en varias etapas y resulta en la creación de un programa o aplicación que puede ser ejecutado en un ordenador.
+
+El compilador toma el código fuente, escrito por un programador en un lenguaje de alto nivel como C, C++, Java o Python, y lo transforma en un conjunto de instrucciones de bajo nivel, conocido como código objeto o código de máquina, entendible por la CPU del ordenador. Este código objeto es específico para la arquitectura de la máquina en la que se ejecutará el programa.
+
+El proceso de compilación se lleva a cabo en varias fases:
+
+1. **Análisis léxico:** El compilador descompone el código fuente en tokens, como palabras clave, identificadores, operadores y símbolos especiales.
+
+2. **Análisis sintáctico:** Verifica la estructura gramatical del código según las reglas del lenguaje de programación. Se construye un árbol de sintaxis abstracta para representar la estructura del programa.
+
+3. **Análisis semántico:** Asegura que las reglas semánticas del lenguaje de programación sean seguidas. Comprueba la coherencia de las declaraciones y verifica que las operaciones sean válidas.
+
+4. **Generación de código intermedio:** Se crea un código intermedio que representa el programa en una forma más abstracta, independiente de la arquitectura de la computadora.
+
+5. **Optimización de código:** Se realizan optimizaciones para mejorar la eficiencia del código intermedio, como la reducción de redundancias o la reorganización de instrucciones para aumentar la velocidad de ejecución.
+
+6. **Generación de código objeto:** Finalmente, se produce el código objeto específico para la arquitectura de la máquina objetivo. Este código está en un formato binario que la CPU puede ejecutar directamente.
+
+Ejemplos de compiladores ampliamente utilizados incluyen GCC (GNU Compiler Collection) para varios lenguajes como C, C++, Fortran, entre otros, y Clang, otro compilador de código abierto compatible con múltiples lenguajes de programación. Estos compiladores son esenciales para convertir el código fuente humano-legible en programas ejecutables que funcionan en diferentes sistemas y dispositivos.

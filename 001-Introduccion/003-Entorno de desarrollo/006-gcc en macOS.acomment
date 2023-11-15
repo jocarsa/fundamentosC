@@ -1,0 +1,35 @@
+Para instalar GCC (GNU Compiler Collection) en macOS, puedes utilizar diferentes métodos. Uno de los enfoques más comunes es a través del Homebrew, un gestor de paquetes para macOS que facilita la instalación de software de código abierto. A continuación, te explico cómo instalar GCC utilizando Homebrew:
+
+**Instalación de GCC con Homebrew:**
+
+1. **Instalación de Homebrew (si no está instalado):**
+
+   Abre la Terminal (puedes encontrarla en Aplicaciones > Utilidades > Terminal) y ejecuta el siguiente comando:
+
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+   Sigue las instrucciones que aparecen en la Terminal para completar la instalación de Homebrew.
+
+2. **Instalación de GCC:**
+
+   Una vez que Homebrew esté instalado, puedes instalar GCC ejecutando el siguiente comando en la Terminal:
+
+   ```bash
+   brew install gcc
+   ```
+
+   Esto instalará la última versión estable de GCC disponible a través de Homebrew.
+
+3. **Verificación de la instalación:**
+
+   Para verificar que GCC se instaló correctamente, abre la Terminal y ejecuta el siguiente comando para verificar la versión instalada:
+
+   ```bash
+   gcc --version
+   ```
+
+   Deberías ver la información de la versión de GCC instalada, lo que indica que la instalación fue exitosa.
+
+Homebrew simplifica en gran medida el proceso de instalación de software en macOS, incluyendo GCC. Este método te permitirá tener GCC instalado y listo para su uso en tu sistema macOS.

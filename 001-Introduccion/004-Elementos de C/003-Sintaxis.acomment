@@ -1,0 +1,43 @@
+Las reglas de sintaxis son las reglas que definen cómo se deben escribir y estructurar las instrucciones y elementos dentro del lenguaje de programación C para que el compilador pueda entender y procesar correctamente el código. A continuación, se presentan las reglas de sintaxis básicas en C:
+
+### 1. Comentarios:
+   - Los comentarios se utilizan para documentar el código y no son interpretados por el compilador.
+   - Se pueden realizar comentarios de una sola línea con `//` o comentarios de múltiples líneas con `/* */`.
+
+### 2. Declaraciones:
+   - Las instrucciones en C se terminan con un punto y coma `;`.
+   - La estructura general de una función es `tipo_de_retorno nombre_funcion(parámetros) { /* cuerpo de la función */ }`.
+
+### 3. Bloques de código:
+   - Los bloques de código se delimitan mediante llaves `{}` y agrupan un conjunto de instrucciones. Por ejemplo, el cuerpo de una función, un bucle o una estructura condicional.
+
+### 4. Identificadores:
+   - Los identificadores son nombres utilizados para variables, funciones, etiquetas, etc.
+   - Deben comenzar con una letra (mayúscula o minúscula) o un guion bajo `_`, seguido de letras, dígitos o guiones bajos.
+   - Son sensibles a mayúsculas y minúsculas.
+
+### 5. Palabras clave (keywords):
+   - Son palabras reservadas del lenguaje que tienen un significado específico y no pueden ser utilizadas como identificadores. Ejemplos: `int`, `char`, `if`, `else`, `while`, `for`, etc.
+
+### 6. Tipos de datos básicos:
+   - Tipos de datos como `int`, `char`, `float`, `double`, etc., se utilizan para declarar variables y determinan el tipo de valor que pueden almacenar.
+
+### 7. Operadores:
+   - Se utilizan para realizar operaciones matemáticas, lógicas y de comparación, como `+`, `-`, `*`, `/`, `%`, `&&`, `||`, `==`, `!=`, etc.
+
+### 8. Asignación:
+   - El operador `=` se utiliza para asignar un valor a una variable.
+
+### 9. Estructuras de control:
+   - Se utilizan para controlar el flujo de ejecución del programa, como `if`, `else`, `switch`, `case`, `while`, `do-while`, `for`, entre otros.
+
+### 10. Directivas del preprocesador:
+   - Se inician con el símbolo `#` y son instrucciones para el preprocesador, como `#include`, `#define`, `#ifdef`, `#ifndef`, entre otras.
+
+### 11. Espacios en blanco y tabulaciones:
+   - Los espacios en blanco y las tabulaciones se utilizan para mejorar la legibilidad del código, pero no afectan la sintaxis siempre que se utilicen correctamente.
+
+### 12. Mayúsculas y minúsculas:
+   - C es sensible a mayúsculas y minúsculas, por lo que `miVariable` y `MiVariable` se consideran distintas.
+
+Estas reglas de sintaxis son fundamentales para escribir código válido en C. Al seguir estas reglas, se puede estructurar el código de manera legible y comprensible para el compilador y otros programadores que puedan trabajar con el código.

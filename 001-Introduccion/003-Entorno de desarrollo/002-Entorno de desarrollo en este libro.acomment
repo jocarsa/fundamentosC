@@ -1,0 +1,13 @@
+¡Claro! En este libro nos sumergiremos en los fundamentos del lenguaje de programación C utilizando un enfoque simple y directo. En lugar de depender de un entorno de desarrollo integrado (IDE) complejo, nos centraremos en un editor de texto sencillo y en el uso directo de la línea de comandos para compilar nuestros programas.
+
+**Editor de texto sencillo:**
+Utilizaremos un editor de texto básico para escribir nuestro código en C. Esto nos permitirá enfocarnos en la lógica de programación y en comprender los conceptos fundamentales del lenguaje. Ejemplos de editores de texto simples pueden incluir Notepad (en Windows), Nano o Vim (en sistemas UNIX/Linux), o cualquier otro editor de texto de tu preferencia que no agregue funcionalidades complejas para escribir código.
+
+**Compilación mediante línea de comandos:**
+En lugar de utilizar un entorno visual o una interfaz gráfica, aprenderemos a compilar nuestros programas utilizando comandos directamente desde la línea de comandos del sistema operativo. Utilizaremos un compilador como GCC (GNU Compiler Collection) o Clang y aprenderemos los pasos necesarios para traducir nuestro código fuente en C a un programa ejecutable.
+
+Este enfoque simple nos permitirá concentrarnos en los conceptos esenciales de programación en C sin distracciones de herramientas más complejas. Aprenderemos cómo escribir, compilar y ejecutar programas utilizando las herramientas básicas disponibles en cualquier sistema operativo, lo que nos brindará una comprensión sólida de los principios fundamentales de la programación en C.
+
+A lo largo de este libro, exploraremos gradualmente desde conceptos básicos como variables, estructuras de control y funciones, hasta conceptos más avanzados como punteros, gestión de memoria y manipulación de archivos. Este enfoque directo nos permitirá entender profundamente cómo funciona el lenguaje de programación C y cómo aplicar estos conocimientos en la construcción de programas efectivos y eficientes.
+
+¡Prepárate para sumergirte en la programación en C a través de un enfoque práctico y directo, utilizando un editor de texto simple y la línea de comandos para compilar tus programas!

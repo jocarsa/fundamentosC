@@ -1,0 +1,44 @@
+En C, las directivas son instrucciones que permiten controlar ciertos aspectos del compilador y del preprocesador. Estas directivas comienzan con el símbolo `#` y son interpretadas antes de la fase de compilación del programa. No son consideradas como parte del lenguaje C en sí, sino que son instrucciones para el preprocesador, que es una etapa previa al proceso de compilación.
+
+Algunas de las directivas más comunes en C son:
+
+### 1. **Directiva `#include`:**
+   Se utiliza para incluir contenido de otros archivos en el código fuente actual, principalmente archivos de cabecera (header files) que contienen declaraciones de funciones, macros y definiciones de tipos. Por ejemplo:
+   ```c
+   #include <stdio.h>  // Incluye el archivo de cabecera de la librería estándar de entrada/salida
+   ```
+
+### 2. **Directiva `#define`:**
+   Permite crear macros, es decir, sustituciones de texto que se expanden antes de la compilación. Por ejemplo:
+   ```c
+   #define PI 3.1416  // Define la constante PI
+   ```
+
+### 3. **Directiva `#ifdef`, `#ifndef`, `#endif`, `#else`:**
+   Estas directivas son utilizadas para realizar condicionales en el código fuente, según la existencia o no de una macro definida.
+   ```c
+   #ifdef DEBUG
+       // Código que se ejecuta si la macro DEBUG está definida
+   #else
+       // Código que se ejecuta si la macro DEBUG no está definida
+   #endif
+   ```
+
+### 4. **Directiva `#pragma`:**
+   Permite al programador indicar al compilador ciertas configuraciones específicas, como optimizaciones, alineación de memoria, desactivación de advertencias, entre otros.
+
+### 5. **Directiva `#error`:**
+   Permite emitir un mensaje de error personalizado durante la fase de preprocesamiento. Por ejemplo:
+   ```c
+   #ifndef MAX_SIZE
+   #error "MAX_SIZE no está definido"
+   #endif
+   ```
+
+### 6. **Directiva `#undef`:**
+   Se utiliza para eliminar una definición previa de una macro. Por ejemplo:
+   ```c
+   #undef PI  // Elimina la definición previa de la constante PI
+   ```
+
+Las directivas en C son una herramienta poderosa que permite controlar el comportamiento del compilador y del proceso de compilación en sí, proporcionando flexibilidad y capacidad de personalización al código fuente. Estas directivas son procesadas por el preprocesador antes de que el código se envíe al compilador, y ayudan a hacer que los programas sean más versátiles y adaptables a diferentes situaciones.
